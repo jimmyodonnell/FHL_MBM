@@ -1,0 +1,26 @@
+# /bin/sh
+# ----------------Parameters---------------------- #
+#$ -S /bin/sh
+#$ -pe mthread 2
+#$ -q sThC.q
+#$ -l mres=2G,h_data=2G,h_vmem=2G
+#$ -cwd
+#$ -j y
+#$ -N FHL_blast_test
+#$ -o FHL_blast_test-$JOB_ID.log
+#
+# ----------------Modules------------------------- #
+module load bioinformatics/blast
+#
+# ----------------Your Commands------------------- #
+#
+echo + `date` job $JOB_NAME started in $QUEUE with jobID=$JOB_ID on $HOSTNAME
+echo + NSLOTS = $NSLOTS
+#
+echo Starting "$1" with "$2"
+
+./blast_nested_e-2.sh "$1" "$2"
+
+#
+echo = `date` job $JOB_NAME done
+
