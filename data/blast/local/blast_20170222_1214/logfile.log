@@ -1,0 +1,116 @@
+~~~~~~~~~~~~~~~~~~~~ BLAST PARAMETERS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Identity value: 0
+Database: /Users/jimmy.odonnell/Downloads/Blast_iterative/blast_preclusters_localbarcodes_v1/Blast_local_database/FHL_plates1-3_aligned.fasta
+Maximum matches per sequence: 1000
+Max high quality hits before culling lower quality: 100
+Word size: 7
+Nested e-values read from command line argument.
+E-Values: 1e-50 1e-45 1e-40 1e-35 1e-30 1e-25 1e-20
+Number of threads: 8
+Output format: 6 qseqid sallseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore staxids stitle
+1e-50 1e-50 1e-50 1e-50 1e-50 1e-50 1e-50
+blast will query file: (19181 sequence(s))
+/Users/jimmy.odonnell/Projects/FHL_MBM/data/7_no_primers.unique.pick.MACSE.precluster.pick.fasta
+Wed Feb 22 12:14:27 PST 2017 blastn is running at 1e-50 e-value...
+Wed Feb 22 12:14:57 PST 2017 blastn finished at 1e-50 e-value.
+blast search took 0 hours, 0 minutes and 30 seconds.
+Blast results in file:
+/Users/jimmy.odonnell/Projects/FHL_MBM/data/7_no_primers.unique.pick.MACSE.precluster.pick/blast_20170222_1214/blasted_20170222_1214_e1e-50.txt
+
+10468 Sequences had no hit in database. Sequence IDs with no blast hit can be found in file:
+/Users/jimmy.odonnell/Projects/FHL_MBM/data/7_no_primers.unique.pick.MACSE.precluster.pick/blast_20170222_1214/blasted_20170222_1214_e1e-50.nohits
+
+Sequences with no blast hit can be found in fasta file:
+/Users/jimmy.odonnell/Projects/FHL_MBM/data/7_no_primers.unique.pick.MACSE.precluster.pick/blast_20170222_1214/blasted_20170222_1214_e1e-50_nohits.fasta
+
+1e-45 1e-45 1e-45 1e-45 1e-45 1e-45 1e-45
+blast will query file: (10468 sequence(s))
+/Users/jimmy.odonnell/Projects/FHL_MBM/data/7_no_primers.unique.pick.MACSE.precluster.pick/blast_20170222_1214/blasted_20170222_1214_e1e-50_nohits.fasta
+Wed Feb 22 12:19:55 PST 2017 blastn is running at 1e-45 e-value...
+Wed Feb 22 12:20:07 PST 2017 blastn finished at 1e-45 e-value.
+blast search took 0 hours, 0 minutes and 12 seconds.
+Blast results in file:
+/Users/jimmy.odonnell/Projects/FHL_MBM/data/7_no_primers.unique.pick.MACSE.precluster.pick/blast_20170222_1214/blasted_20170222_1214_e1e-45.txt
+
+9463 Sequences had no hit in database. Sequence IDs with no blast hit can be found in file:
+/Users/jimmy.odonnell/Projects/FHL_MBM/data/7_no_primers.unique.pick.MACSE.precluster.pick/blast_20170222_1214/blasted_20170222_1214_e1e-45.nohits
+
+Sequences with no blast hit can be found in fasta file:
+/Users/jimmy.odonnell/Projects/FHL_MBM/data/7_no_primers.unique.pick.MACSE.precluster.pick/blast_20170222_1214/blasted_20170222_1214_e1e-45_nohits.fasta
+
+1e-40 1e-40 1e-40 1e-40 1e-40 1e-40 1e-40
+blast will query file: (9463 sequence(s))
+/Users/jimmy.odonnell/Projects/FHL_MBM/data/7_no_primers.unique.pick.MACSE.precluster.pick/blast_20170222_1214/blasted_20170222_1214_e1e-45_nohits.fasta
+Wed Feb 22 12:21:29 PST 2017 blastn is running at 1e-40 e-value...
+Wed Feb 22 12:21:42 PST 2017 blastn finished at 1e-40 e-value.
+blast search took 0 hours, 0 minutes and 13 seconds.
+Blast results in file:
+/Users/jimmy.odonnell/Projects/FHL_MBM/data/7_no_primers.unique.pick.MACSE.precluster.pick/blast_20170222_1214/blasted_20170222_1214_e1e-40.txt
+
+8020 Sequences had no hit in database. Sequence IDs with no blast hit can be found in file:
+/Users/jimmy.odonnell/Projects/FHL_MBM/data/7_no_primers.unique.pick.MACSE.precluster.pick/blast_20170222_1214/blasted_20170222_1214_e1e-40.nohits
+
+Sequences with no blast hit can be found in fasta file:
+/Users/jimmy.odonnell/Projects/FHL_MBM/data/7_no_primers.unique.pick.MACSE.precluster.pick/blast_20170222_1214/blasted_20170222_1214_e1e-40_nohits.fasta
+
+1e-35 1e-35 1e-35 1e-35 1e-35 1e-35 1e-35
+blast will query file: (8020 sequence(s))
+/Users/jimmy.odonnell/Projects/FHL_MBM/data/7_no_primers.unique.pick.MACSE.precluster.pick/blast_20170222_1214/blasted_20170222_1214_e1e-40_nohits.fasta
+Wed Feb 22 12:23:00 PST 2017 blastn is running at 1e-35 e-value...
+Wed Feb 22 12:23:10 PST 2017 blastn finished at 1e-35 e-value.
+blast search took 0 hours, 0 minutes and 10 seconds.
+Blast results in file:
+/Users/jimmy.odonnell/Projects/FHL_MBM/data/7_no_primers.unique.pick.MACSE.precluster.pick/blast_20170222_1214/blasted_20170222_1214_e1e-35.txt
+
+6558 Sequences had no hit in database. Sequence IDs with no blast hit can be found in file:
+/Users/jimmy.odonnell/Projects/FHL_MBM/data/7_no_primers.unique.pick.MACSE.precluster.pick/blast_20170222_1214/blasted_20170222_1214_e1e-35.nohits
+
+Sequences with no blast hit can be found in fasta file:
+/Users/jimmy.odonnell/Projects/FHL_MBM/data/7_no_primers.unique.pick.MACSE.precluster.pick/blast_20170222_1214/blasted_20170222_1214_e1e-35_nohits.fasta
+
+1e-30 1e-30 1e-30 1e-30 1e-30 1e-30 1e-30
+blast will query file: (6558 sequence(s))
+/Users/jimmy.odonnell/Projects/FHL_MBM/data/7_no_primers.unique.pick.MACSE.precluster.pick/blast_20170222_1214/blasted_20170222_1214_e1e-35_nohits.fasta
+Wed Feb 22 12:24:05 PST 2017 blastn is running at 1e-30 e-value...
+Wed Feb 22 12:24:13 PST 2017 blastn finished at 1e-30 e-value.
+blast search took 0 hours, 0 minutes and 8 seconds.
+Blast results in file:
+/Users/jimmy.odonnell/Projects/FHL_MBM/data/7_no_primers.unique.pick.MACSE.precluster.pick/blast_20170222_1214/blasted_20170222_1214_e1e-30.txt
+
+4945 Sequences had no hit in database. Sequence IDs with no blast hit can be found in file:
+/Users/jimmy.odonnell/Projects/FHL_MBM/data/7_no_primers.unique.pick.MACSE.precluster.pick/blast_20170222_1214/blasted_20170222_1214_e1e-30.nohits
+
+Sequences with no blast hit can be found in fasta file:
+/Users/jimmy.odonnell/Projects/FHL_MBM/data/7_no_primers.unique.pick.MACSE.precluster.pick/blast_20170222_1214/blasted_20170222_1214_e1e-30_nohits.fasta
+
+1e-25 1e-25 1e-25 1e-25 1e-25 1e-25 1e-25
+blast will query file: (4945 sequence(s))
+/Users/jimmy.odonnell/Projects/FHL_MBM/data/7_no_primers.unique.pick.MACSE.precluster.pick/blast_20170222_1214/blasted_20170222_1214_e1e-30_nohits.fasta
+Wed Feb 22 12:24:49 PST 2017 blastn is running at 1e-25 e-value...
+Wed Feb 22 12:24:55 PST 2017 blastn finished at 1e-25 e-value.
+blast search took 0 hours, 0 minutes and 6 seconds.
+Blast results in file:
+/Users/jimmy.odonnell/Projects/FHL_MBM/data/7_no_primers.unique.pick.MACSE.precluster.pick/blast_20170222_1214/blasted_20170222_1214_e1e-25.txt
+
+3840 Sequences had no hit in database. Sequence IDs with no blast hit can be found in file:
+/Users/jimmy.odonnell/Projects/FHL_MBM/data/7_no_primers.unique.pick.MACSE.precluster.pick/blast_20170222_1214/blasted_20170222_1214_e1e-25.nohits
+
+Sequences with no blast hit can be found in fasta file:
+/Users/jimmy.odonnell/Projects/FHL_MBM/data/7_no_primers.unique.pick.MACSE.precluster.pick/blast_20170222_1214/blasted_20170222_1214_e1e-25_nohits.fasta
+
+1e-20 1e-20 1e-20 1e-20 1e-20 1e-20 1e-20
+blast will query file: (3840 sequence(s))
+/Users/jimmy.odonnell/Projects/FHL_MBM/data/7_no_primers.unique.pick.MACSE.precluster.pick/blast_20170222_1214/blasted_20170222_1214_e1e-25_nohits.fasta
+Wed Feb 22 12:25:16 PST 2017 blastn is running at 1e-20 e-value...
+Wed Feb 22 12:25:21 PST 2017 blastn finished at 1e-20 e-value.
+blast search took 0 hours, 0 minutes and 5 seconds.
+Blast results in file:
+/Users/jimmy.odonnell/Projects/FHL_MBM/data/7_no_primers.unique.pick.MACSE.precluster.pick/blast_20170222_1214/blasted_20170222_1214_e1e-20.txt
+
+2610 Sequences had no hit in database. Sequence IDs with no blast hit can be found in file:
+/Users/jimmy.odonnell/Projects/FHL_MBM/data/7_no_primers.unique.pick.MACSE.precluster.pick/blast_20170222_1214/blasted_20170222_1214_e1e-20.nohits
+
+Sequences with no blast hit can be found in fasta file:
+/Users/jimmy.odonnell/Projects/FHL_MBM/data/7_no_primers.unique.pick.MACSE.precluster.pick/blast_20170222_1214/blasted_20170222_1214_e1e-20_nohits.fasta
+
+Wed Feb 22 12:25:32 PST 2017 Nested e-value blast completed.
