@@ -22,7 +22,7 @@ fig_dir <- file.path("..", "figures")
 counts_table_file <- "7_no_primers.unique.pick.MACSE.precluster.pick.count_table"
 
 # script used to run blast:
-blast_script_file <- "blast/blast_nested_e-2.sh"
+blast_script_file <- "blast/local/blast_nested_e-local.sh"
 
 # blast results files
 blast_output_files <- c(
