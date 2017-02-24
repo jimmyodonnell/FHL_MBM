@@ -3,7 +3,10 @@
 
 #
 library(data.table) # fread(); data.table()
+library(magrittr) # %>%
+
 INTERACTIVE <- FALSE
+
 if(INTERACTIVE){
   analysis_dir <- dirname(file.choose()) # choose this script file
   setwd(analysis_dir)
@@ -26,9 +29,8 @@ blast_script_file <- "blast/local/blast_nested_e-local.sh"
 
 # blast results files
 blast_output_files <- c(
-  "blast/genbank/blast_results_nogit.txt", 
-  # "blast/genbank/FHL_blast_GenBank_results.nogit.txt",
-  "blast/local/blast_20170222_1214/blasted_20170222_1214_e_all.txt"
+  "blast/local/blast_20170222_1214/blasted_20170222_1214_e_all.txt", 
+  "blast/genbank/blast_results_nogit.txt"
 )
 
 # blast_out_headers <- list(
@@ -67,8 +69,16 @@ length(blast_out_header)
 #-------------------------------------------------------------------------------
 
 for(i in 1:length(blast_out_raw)){
-  
+  names(blast_out_raw[[i]]) <- blast_out_header
 }
-temp <- cbind(blast_out_raw[[2]], db = rep("local", nrow(blast_out_raw[[2]])))
 
-temp
+temp <- rbind(
+  cbind(blast_out_raw[[1]], db = rep("local", nrow(blast_out_raw[[1]]))), 
+  cbind(blast_out_raw[[2]], db = rep("genbank", nrow(blast_out_raw[[2]])))
+)
+
+# Does the sequence have a match in the FHL course barcode database at >97% identity? (blastn)
+unique(temp[ db == "local" & pident >= 97.00 , qseqid])
+
+# Does the sequence match a sequence in GenBank at >97% identity? (blastn)
+temp[ db == "genbank" & pident >= 97.00 ]
