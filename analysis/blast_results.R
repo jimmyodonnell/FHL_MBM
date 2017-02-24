@@ -26,7 +26,7 @@ blast_script_file <- "blast/local/blast_nested_e-local.sh"
 
 # blast results files
 blast_output_files <- c(
-  "blast/genbank/correct_fields_nogit.txt", 
+  "blast/genbank/blast_results_nogit.txt", 
   # "blast/genbank/FHL_blast_GenBank_results.nogit.txt",
   "blast/local/blast_20170222_1214/blasted_20170222_1214_e_all.txt"
 )
