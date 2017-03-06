@@ -72,6 +72,16 @@ for(i in 1:length(blast_out_raw)){
   names(blast_out_raw[[i]]) <- blast_out_header
 }
 
+for(i in 1:length(blast_out_raw)){
+  in_blastout <- length(
+    counts_table[,Representative_Sequence] %in% blast_out_raw[[i]][,qseqid])
+  msg <- paste0(in_blastout, " of ", nrow(counts_table), 
+                " sequences from count table in blast output ", i)
+  print(msg)
+}
+
+
+
 temp <- rbind(
   cbind(blast_out_raw[[1]], db = rep("local", nrow(blast_out_raw[[1]]))), 
   cbind(blast_out_raw[[2]], db = rep("genbank", nrow(blast_out_raw[[2]])))
