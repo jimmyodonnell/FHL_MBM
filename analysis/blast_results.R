@@ -50,7 +50,7 @@ for(i in 1:length(blast_output_files)){
 }
 length(blast_out_raw)
 names(blast_out_raw)
-dim(blast_out_raw[[2]])
+lapply(blast_out_raw, dim)
 blast_out_raw[[2]][ V2 %like% "BMBM"]
 
 
@@ -93,6 +93,36 @@ for(i in 1:length(blast_out_raw)){
     N_hits = as.numeric(names(table(hits_per_qseq))),
     Freq = as.numeric(table(hits_per_qseq))
   )
+}
+
+#-------------------------------------------------------------------------------
+# the local results look suspicious
+hits_per_qseq_loc <- sort(table(blast_out_raw[["local"]][,qseqid]))
+tail(hits_per_qseq_loc, 10)
+length(hits_per_qseq_loc)
+
+gt_10 <- which(hits_per_qseq_loc > 10)
+pident_trail <- list()
+for(i in 1:length(gt_10)){
+  pident_trail[[i]] <- sort(blast_out_raw[["local"]][
+    qseqid == names(hits_per_qseq_loc)[gt_10[i]] , evalue], decreasing = FALSE)
+}
+trail_len <- sapply(pident_trail, length)
+
+library(viridis)
+col_lev <- viridis(length(unique(trail_len)), alpha = 0.5)
+
+par(bg = "grey50")
+plot(c(0,max(trail_len)), range(unlist(pident_trail)), type = "n", 
+     xlab = "hit", ylab = "percent identity", 
+     bg = "gray",
+     log = "y",
+     las = 1
+)
+for(i in 1:length(gt_10)){
+  points(pident_trail[[i]], 
+    col = col_lev[as.numeric(as.factor(trail_len))[i]], 
+    type = "l")
 }
 
 #+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
