@@ -1,0 +1,4 @@
+
+Frequency of the number of hits per query sequence. 
+Points are colored by the database against which sequences were queried.
+
