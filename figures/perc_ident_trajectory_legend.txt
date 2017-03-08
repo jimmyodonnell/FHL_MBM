@@ -1,0 +1,5 @@
+
+Trajectory of percent identity for hits against local database.
+Each line represents a given query sequence, and its path denotes the sorted percent identity.
+Lines are colored by the total number of hits.
+
