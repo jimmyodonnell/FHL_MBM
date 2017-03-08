@@ -29,7 +29,7 @@ blast_script_file <- "blast/local/blast_nested_e-local.sh"
 
 # blast results files
 blast_output_files <- c(
-  local = "blast/local/blast_20170222_1214/blasted_20170222_1214_e_all.txt", 
+  local = "blast/local/blast_20170222_1214/blasted_20170222_1214_e_all.tsv", 
   genbank = "blast/genbank/blast_results_nogit.txt"
 )
 
@@ -105,25 +105,28 @@ gt_10 <- which(hits_per_qseq_loc > 10)
 pident_trail <- list()
 for(i in 1:length(gt_10)){
   pident_trail[[i]] <- sort(blast_out_raw[["local"]][
-    qseqid == names(hits_per_qseq_loc)[gt_10[i]] , evalue], decreasing = FALSE)
+    qseqid == names(hits_per_qseq_loc)[gt_10[i]] , pident], decreasing = TRUE)
 }
 trail_len <- sapply(pident_trail, length)
 
 library(viridis)
 col_lev <- viridis(length(unique(trail_len)), alpha = 0.5)
 
-par(bg = "grey50")
-plot(c(0,max(trail_len)), range(unlist(pident_trail)), type = "n", 
+par_o <- par()
+par(bg = "grey50", mar = c(4,4,1,1))
+plot(c(1,max(trail_len)), range(unlist(pident_trail)), type = "n", 
      xlab = "hit", ylab = "percent identity", 
      bg = "gray",
-     log = "y",
+     # log = "y",
      las = 1
 )
 for(i in 1:length(gt_10)){
   points(pident_trail[[i]], 
     col = col_lev[as.numeric(as.factor(trail_len))[i]], 
+    lwd = 2, 
     type = "l")
 }
+dev.off()
 
 #+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # Plotting hits per query
@@ -133,7 +136,7 @@ ymax <- max(sapply(hit_table, function(x) max(x$Freq)))
 
 plot_name <- "hits_per_query"
 
-EXPORT <- TRUE
+EXPORT <- FALSE
 
 if(!exists("legend_text")){legend_text <- list()}
 legend_text[plot_name] <- {"
@@ -190,6 +193,7 @@ tax_ann <- data.table(seq_id = counts_table[,Representative_Sequence])
 # tax_ann[,fhl_db := seq_id %in% ]
 
 # Does the sequence have a match in the FHL course barcode database at >97% identity? (blastn)
+blast_out[db == "local", .SD[which(pident == max(pident))], by = qseqid]
 good_hits_per_qseq <- table(blast_out[ db == "local" & pident >= 97.00, qseqid])
 
 
