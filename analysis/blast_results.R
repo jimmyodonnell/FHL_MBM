@@ -259,9 +259,12 @@ blast_hits <- rbind(hits_local, hits_genbank)
 # get taxon names
 #-------------------------------------------------------------------------------
 
+library(taxize)
 
 hits_genbank$hit_name %>% 
-  strsplit
+  strsplit(split = ";") %>%
+  unlist %>%
+  unique -> taxid_uniq
 
 unlist(strsplit(hits_genbank$hit_name[920:940], split = ";"))
 
