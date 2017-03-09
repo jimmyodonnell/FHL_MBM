@@ -10,10 +10,16 @@ We applied a number of quality filters to the sequence data (everything up to pr
 Our approach for taxonomic annotation is the following:
 
 - Does the sequence have a match in the FHL course barcode database at >97% identity? (blastn)
-  - YES: use the name associated with that specimen
+  - YES:
+    - Is there only one hit at that level?
+      - YES: use the name associated with that specimen
+      - NO: use multiple names, resolving differences by (???...???)
   - NO:
     - Does the sequence match a sequence in GenBank at >97% identity? (blastn)
-      - YES: use the name associated with that GenBank sequence
+      - YES:
+        - Is there only one hit at that level?
+          - YES: use the name associated with that specimen
+          - NO: use multiple names, resolving differences by (???...???)
       - NO:
         - After clustering at 5% (CROP), does OTU sequence have a match in GenBank at >85% identity? (blastn)
           - YES: use the phylum name associated with that GenBank sequence

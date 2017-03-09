@@ -1,6 +1,8 @@
 # create a table from the results of blastn on local and genbank databases
 ################################################################################
 
+EXPORT <- FALSE
+
 #
 library(data.table) # fread(); data.table()
 library(magrittr) # %>%
@@ -51,8 +53,6 @@ for(i in 1:length(blast_output_files)){
 length(blast_out_raw)
 names(blast_out_raw)
 lapply(blast_out_raw, dim)
-blast_out_raw[[2]][ V2 %like% "BMBM"]
-
 
 # counts table:
 counts_table <- fread(input = file.path(data_dir, counts_table_file))
@@ -109,6 +109,24 @@ for(i in 1:length(gt_10)){
 }
 trail_len <- sapply(pident_trail, length)
 
+# plot trajectories of percent identity when there are multiple hits
+plot_name <- "perc_ident_trajectory"
+
+if(!exists("legend_text")){legend_text <- list()}
+legend_text[plot_name] <- {"
+Trajectory of percent identity for hits against local database.
+Each line represents a given query sequence, and its path denotes the sorted percent identity.
+Lines are colored by the total number of hits.
+"}
+
+if(EXPORT){
+  pdf_file    <- file.path(fig_dir, paste(plot_name, ".pdf", sep = ""))
+  legend_file <- file.path(fig_dir, paste(plot_name, "_legend.txt", sep = ""))
+  writeLines(legend_text[[plot_name]], con = legend_file)
+  pdf(file = pdf_file, width = 5, height = 4) #, width = 8, height = 3
+}
+
+
 library(viridis)
 col_lev <- viridis(length(unique(trail_len)), alpha = 0.5)
 
@@ -135,8 +153,6 @@ ymax <- max(sapply(hit_table, function(x) max(x$Freq)))
 
 
 plot_name <- "hits_per_query"
-
-EXPORT <- FALSE
 
 if(!exists("legend_text")){legend_text <- list()}
 legend_text[plot_name] <- {"
@@ -182,29 +198,85 @@ for(i in 1:length(blast_out_raw)){
 # combine into a single table
 blast_out <- rbindlist(l = blast_out_raw, use.names = TRUE)
 
-dim(blast_out)
 
 #===============================================================================
 # Assemble taxonomic annotation table
 #-------------------------------------------------------------------------------
 
-tax_ann <- data.table(seq_id = counts_table[,Representative_Sequence])
+is.duplicated <- function(x) { 
+  # this function returns a vector where each element corresponds to
+  # whether or not an element of x is found in x more than once.
+  x %in% x[duplicated(x)]
+}
 
-# tax_ann[,fhl_db := seq_id %in% ]
-
-# Does the sequence have a match in the FHL course barcode database at >97% identity? (blastn)
-blast_out[db == "local", .SD[which(pident == max(pident))], by = qseqid]
-good_hits_per_qseq <- table(blast_out[ db == "local" & pident >= 97.00, qseqid])
-
-
-tax_ann[, good_hits := as.numeric(good_hits_per_qseq[tax_ann$seq_id])] 
-
-# how many sequences do not have hits in FHL CO1 DB >97
-nrow(
-  tax_ann[ good_hits = "NA" , ]
-  )
-tax_ann[ good_hits > 0, ]
-
-# Does the sequence match a sequence in GenBank at >97% identity? (blastn)
-temp[ db == "genbank" & pident >= 97.00 ]
 #-------------------------------------------------------------------------------
+# LOCAL DATABASE
+#-------------------------------------------------------------------------------
+# Does the sequence have a match in the FHL course barcode database at >97% identity? (blastn)
+# from all of the results,
+blast_out %>%
+  # extract hits in local database with 97.0 percent identity
+  .[db == "local" & pident >= 97.0, 
+    ] %>% 
+  .[, # extract the hits with the max pident
+    .SD[which(pident == max(pident))], 
+    by = qseqid] %>% 
+  .[,
+    # if there are multiple equally good hits, paste the sallseqid names together
+    list(pident, hit_name = paste(sallseqid, collapse = ";"), db), 
+    by = qseqid] %>% 
+  # eliminate duplicate rows
+  unique -> hits_local
+#-------------------------------------------------------------------------------
+
+
+#-------------------------------------------------------------------------------
+# GENBANK
+#-------------------------------------------------------------------------------
+# Does the sequence match a sequence in GenBank at >97% identity? (blastn)
+
+blast_out %>%
+  # extract hits in genbank database with 97.0 percent identity
+  # that did not have a hit in the local database
+  .[db == "genbank" & pident >= 97.0 & !(qseqid %in% hits_local$qseqid), 
+    ] %>% 
+  .[, # extract the hits with the max pident
+    .SD[which(pident == max(pident))], 
+    by = qseqid] %>% 
+  .[,
+    # if there are multiple equally good hits, paste the staxids names together
+    list(pident, hit_name = paste(unique(staxids), collapse = ";"), db), #unique
+    by = qseqid] %>%
+  # eliminate duplicate rows
+  unique -> hits_genbank
+
+#-------------------------------------------------------------------------------
+blast_hits <- rbind(hits_local, hits_genbank)
+#-------------------------------------------------------------------------------
+
+
+#-------------------------------------------------------------------------------
+# get taxon names
+#-------------------------------------------------------------------------------
+
+
+hits_genbank$hit_name %>% 
+  strsplit
+
+unlist(strsplit(hits_genbank$hit_name[920:940], split = ";"))
+
+tax_ann <- data.table(qseqid = counts_table[,Representative_Sequence])
+
+library(plyr)
+join(tax_ann, blast_hits, type = "left")
+
+merge(x = tax_ann, y = hits_local)
+
+dt1 <- data.table(let = letters[1:26])
+reordered <- sample(1:20)
+dt2 <- data.table(
+  let = letters[reordered], 
+  num = reordered
+)
+library(plyr)
+join(dt1, dt2, type = "left")
