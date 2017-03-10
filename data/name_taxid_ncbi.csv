@@ -1,0 +1,1498 @@
+taxon_name,rank,id
+cellular organisms,no rank,131567
+Eukaryota,superkingdom,2759
+Opisthokonta,no rank,33154
+Metazoa,kingdom,33208
+Eumetazoa,no rank,6072
+Bilateria,no rank,33213
+Protostomia,no rank,33317
+Ecdysozoa,no rank,1206794
+Panarthropoda,no rank,88770
+Arthropoda,phylum,6656
+Mandibulata,no rank,197563
+Pancrustacea,no rank,197562
+Crustacea,subphylum,6657
+Maxillopoda,class,72037
+Thecostraca,subclass,116172
+Cirripedia,infraclass,6675
+Thoracica,superorder,6676
+Sessilia,order,116167
+Chthamalidae,family,37897
+Chthamalus,genus,37898
+Chthamalus dalli,species,116181
+Lophotrochozoa,no rank,1206795
+Mollusca,phylum,6447
+Bivalvia,class,6544
+Heteroconchia,no rank,6599
+Euheterodonta,infraclass,735337
+Myoida,order,278205
+Hiatelloidea,superfamily,105708
+Hiatellidae,family,61359
+Panopea,genus,61360
+Panopea generosa,species,1049056
+Nemertea,phylum,6217
+Anopla,class,6218
+Heteronemertea,order,6219
+Lineidae,family,6222
+Maculaura,genus,1805652
+Maculaura alaskensis,species,187798
+Copepoda,subclass,6830
+Neocopepoda,infraclass,116569
+Gymnoplea,superorder,116570
+Calanoida,order,6833
+Clausocalanidae,family,148994
+Pseudocalanus,genus,119371
+Pseudocalanus mimus,species,163483
+Paracalanidae,family,163470
+Paracalanus,genus,163471
+Paracalanus parvus,species,187406
+Metridinidae,family,122094
+Metridia,genus,114066
+Metridia pacifica,species,114067
+Annelida,phylum,6340
+Polychaeta,class,6341
+Palpata,subclass,105389
+Aciculata,infraclass,105390
+Eunicida,order,65495
+Onuphidae,family,169110
+Diopatra,genus,311533
+Diopatra cf. ornata JZ-2010,species,759329
+Phyllodocida,order,6348
+Pholoidae,family,222011
+Pholoides,genus,868092
+Pholoides asperus,species,868093
+Calanidae,family,6835
+Calanus,genus,6836
+Calanus pacificus,species,84301
+Acartiidae,family,121147
+Acartia,genus,121148
+Acartia californiensis,species,1309584
+Deuterostomia,no rank,33511
+Echinodermata,phylum,7586
+Eleutherozoa,no rank,133551
+Echinozoa,superclass,7624
+Echinoidea,class,7625
+Euechinoidea,subclass,7638
+Gnathostomata,superorder,35060
+Clypeasteroida,order,31186
+Dendrasteridae,family,273750
+Dendraster,genus,273751
+Dendraster excentricus,species,273752
+Gastropoda,class,6448
+Heterobranchia,no rank,216305
+Euthyneura,no rank,216307
+Nudipleura,no rank,680346
+Nudibranchia,order,70849
+Doridina,infraorder,216331
+Anadoridoidea,superfamily,216335
+Onchidorididae,family,71283
+Knoutsodonta,genus,1639840
+Knoutsodonta jannae,species,1639842
+Pseudocalanus newmani,species,119373
+Bryozoa,phylum,10205
+Gymnolaemata,class,10206
+Cheilostomatida,order,10207
+Malacostegina,suborder,193205
+Membraniporoidea,superfamily,193206
+Membraniporidae,family,192924
+Membranipora,genus,95169
+Membranipora membranacea,species,95170
+Balanidae,family,37806
+Balanus,genus,6677
+Balanus sp. BOLD:AAA5336,species,1646044
+Balanus glandula,species,110520
+Porifera,phylum,6040
+Demospongiae,class,6042
+Heteroscleromorpha,subclass,1779146
+Suberitida,order,1779162
+Halichondriidae,family,6060
+Halichondria,genus,6061
+Halichondria (Halichondria),subgenus,1937956
+Halichondria panicea,species,6063
+Branchiopoda,class,6658
+Phyllopoda,subclass,116557
+Diplostraca,order,84337
+Cladocera,suborder,6665
+Onychopoda,infraorder,116562
+Podonidae,family,141398
+Podon,genus,141399
+Podon leuckartii,species,141400
+Cnidaria,phylum,6073
+Hydrozoa,class,6074
+Hydroidolina,subclass,37516
+Anthoathecata,order,406427
+Filifera,suborder,406428
+Bougainvilliidae,family,168713
+Bougainvillia,genus,168714
+Bougainvillia muscus,species,308567
+Scolecida,subclass,105387
+Spionida,order,46589
+Spionidae,family,46599
+Scolelepis,genus,95535
+Scolelepis squamata,species,95536
+Pseudocalanus moultoni,species,119372
+Membranipora serrilamella,species,95171
+Evadne,genus,141402
+Evadne nordmanni,species,141403
+Syllidae,family,122238
+unclassified Syllidae,no rank,696334
+Syllidae sp. BOLD:AAV0869,species,1652012
+Goniadidae,family,221999
+Glycinde,genus,397551
+Glycinde armigera,species,397552
+unclassified Chthamalidae,no rank,1764460
+Chthamalidae sp. 142934A,species,1764472
+Paracalanus sp. C AC-2013,species,1436824
+Veneroida,order,6580
+Galeommatoidea,superfamily,106228
+Kelliidae,family,41677
+Kellia,genus,32588
+Kellia suborbicularis,species,1421129
+Nereididae,family,39820
+Cheilonereis,genus,868082
+Cheilonereis cyclurus,species,868083
+Terebellida,order,6373
+Pectinariidae,family,104750
+Pectinaria,genus,104751
+Pectinaria granulata CMC01,species,868119
+Pteriomorphia,subclass,6545
+Mytiloida,order,6546
+Mytiloidea,superfamily,106220
+Mytilidae,family,6547
+Mytilinae,subfamily,301959
+Mytilus,genus,6548
+Mytilus trossulus,species,6551
+Ostreoida,order,6562
+Ostreoidea,superfamily,98302
+Ostreidae,family,6563
+Ostrea,genus,37858
+Ostrea conchaphila,species,74445
+Panpulmonata,no rank,977775
+Sacoglossa,no rank,71490
+Placobranchoidea,superfamily,71491
+Placobranchidae,family,71492
+Elysia,genus,71493
+Elysia hedgpethi,species,1522333
+Patellogastropoda,no rank,69675
+Lottioidea,superfamily,216260
+Lottiidae,family,69676
+Lottia,genus,72691
+Lottia digitalis,species,225159
+Malacostraca,class,6681
+Eumalacostraca,subclass,72041
+Eucarida,superorder,6682
+Decapoda,order,6683
+Pleocyemata,suborder,6692
+Brachyura,infraorder,6752
+Eubrachyura,no rank,116704
+Heterotremata,no rank,116706
+Cancroidea,superfamily,29964
+Cancridae,family,6753
+Metacarcinus,genus,555451
+Metacarcinus gracilis,species,88206
+Xanthoidea,superfamily,6778
+Panopeidae,family,108099
+Lophopanopeus,genus,707977
+Lophopanopeus bellus,species,707981
+Majoidea,superfamily,6804
+Pisidae,family,397938
+Scyra,genus,504433
+Scyra acutifrons,species,504435
+Thoracotremata,no rank,116707
+Grapsoidea,superfamily,29962
+Varunidae,family,72876
+Hemigrapsus,genus,40175
+Hemigrapsus oregonensis,species,106767
+Chorilia,genus,397939
+Chorilia longipes,species,397940
+Caridea,infraorder,6694
+Alpheoidea,superfamily,115581
+Hippolytidae,family,98089
+Eualus,genus,397946
+Eualus avinus,species,397947
+Ostracoda,class,6670
+Myodocopa,subclass,6671
+Halocyprida,order,178836
+Halocypridina,suborder,178837
+Halocypridoidea,superfamily,936386
+Halocyprididae,family,178838
+Discoconchoecia,genus,702396
+Discoconchoecia aff. elegans CMARA05509_Os109.1.3,species,1774722
+Discoconchoecia aff. elegans CMARA05309_Os109.1.1,species,1774721
+Vetigastropoda,no rank,216275
+Trochoidea,superfamily,216285
+Calliostomatidae,family,648666
+Calliostoma,genus,155529
+Calliostoma ligatum,species,703298
+Alveolata,no rank,33630
+Dinophyceae,class,2864
+Syndiniales,order,88547
+Syndiniaceae,family,88550
+Hematodinium,genus,135491
+unclassified Hematodinium,no rank,467798
+Hematodinium sp.,species,173654
+Rhodophyta,no rank,2763
+Florideophyceae,class,2806
+Ceramiales,order,2802
+Rhodomelaceae,family,2803
+Polysiphonia,genus,2804
+unclassified Polysiphonia,no rank,335209
+Polysiphonia sp. 2paniculata,species,1583043
+Axiidea,infraorder,1792265
+Callianassidae,family,177236
+Neotrypaea,genus,177237
+Neotrypaea californiensis,species,177238
+Neotrypaea sp. ALB3 BP-2008,species,491785
+Ceramiaceae,family,31377
+Ceramium,genus,31380
+unclassified Ceramium,no rank,228188
+Ceramium sp. 1BC,species,1582923
+Gigartinales,order,28017
+Kallymeniaceae,family,31430
+Callophyllis,genus,31431
+Callophyllis edentata,species,217480
+Crangonoidea,superfamily,115585
+Crangonidae,family,98081
+Crangon,genus,98082
+Crangon crangon,species,491138
+environmental samples,no rank,61964
+uncultured Jiaozhou Bay zooplankton,species,232018
+Chordata,phylum,7711
+Craniata,subphylum,89593
+Vertebrata,no rank,7742
+Gnathostomata,no rank,7776
+Teleostomi,no rank,117570
+Euteleostomi,no rank,117571
+Actinopterygii,superclass,7898
+Actinopteri,class,186623
+Neopterygii,subclass,41665
+Teleostei,infraclass,32443
+Osteoglossocephalai,no rank,1489341
+Clupeocephala,no rank,186625
+Euteleosteomorpha,no rank,1489388
+Neoteleostei,no rank,123365
+Eurypterygia,no rank,123366
+Ctenosquamata,no rank,123367
+Acanthomorphata,no rank,123368
+Euacanthomorphacea,no rank,123369
+Percomorphaceae,no rank,1489872
+Eupercaria,no rank,1489922
+Perciformes,order,8111
+Scorpaenoidei,suborder,8107
+Sebastidae,family,274692
+Sebastinae,subfamily,274705
+Sebastes,genus,34820
+Sebastes emphaeus,species,72071
+Sebastes wilsoni,species,72107
+Delesseriaceae,family,31386
+Polyneura,genus,31390
+Polyneura latissima,species,31391
+Pinnotheroidea,superfamily,116715
+Pinnotheridae,family,84654
+Fabia,genus,504421
+Fabia subquadrata,species,504422
+Euphausiacea,order,6816
+Euphausiidae,family,6817
+Euphausia,genus,6818
+Euphausia pacifica,species,102976
+Stramenopiles,no rank,33634
+Bacillariophyta,phylum,2836
+Coscinodiscophyceae,class,33836
+Chaetocerotophycidae,subclass,420266
+Chaetocerotales,order,265576
+Attheyaceae,family,265577
+Attheya,genus,265578
+Attheya longicornis,species,451786
+Peracarida,superorder,6820
+Amphipoda,order,6821
+Hyperiidea,suborder,44328
+Physocephalata,infraorder,116677
+Phronimoidea,superfamily,116681
+Hyperiidae,family,294118
+Parathemisto,genus,294119
+Parathemisto pacifica,species,1307125
+Canalipalpata,infraclass,105391
+Sabellida,order,6362
+Sabellidae,family,6366
+Myxicola,genus,76263
+Myxicola infundibulum,species,76264
+Caenogastropoda,no rank,69555
+Hypsogastropoda,no rank,216293
+Littorinimorpha,infraorder,216294
+Littorinoidea,superfamily,69679
+Littorinidae,family,31212
+Littorina,genus,31213
+Littorina plena,species,31219
+Neogastropoda,infraorder,6479
+Buccinoidea,superfamily,216303
+Nassariidae,family,6483
+Nassariinae,subfamily,1934898
+Nassarius,genus,6484
+Nassarius mendicus,species,1842846
+Epialtidae,family,516942
+Pugettia,genus,27407
+Pugettia producta,species,504418
+Leptothecata,order,500008
+Campanulariidae,family,27800
+Obelia,genus,32569
+Obelia sp. 3 SL-2013,species,1345084
+Laonice,genus,394758
+Laonice cirrata CMC01,species,868103
+Carangaria,no rank,1489904
+Pleuronectiformes,order,8252
+Pleuronectoidei,suborder,30942
+Pleuronectidae,family,8256
+Isopsetta,genus,195616
+Isopsetta isolepis,species,195617
+Thalassiosirophycidae,no rank,33846
+Thalassiosirales,order,33847
+Thalassiosiraceae,family,29202
+Thalassiosira,genus,35127
+Thalassiosira nordenskioeldii,species,83372
+Columbellidae,family,74056
+Alia,genus,1421180
+Alia carinata,species,1421181
+Centropagidae,family,136181
+Centropages,genus,136182
+Centropages abdominalis,species,207955
+Obelia longissima,species,32570
+Obelia dichotoma,species,37520
+Syllis,genus,418360
+Syllis alternata CMC03,species,868122
+Obelia sp. RW-2010,species,940427
+Tonnoidea,superfamily,128416
+Ranellidae,family,69569
+Fusitriton,genus,160011
+Fusitriton oregonensis,species,160012
+Coscinodiscophycidae,no rank,33840
+Melosirales,order,33841
+Melosiraceae,family,35123
+Melosira,genus,35124
+Melosira nummuloides,species,35125
+Paralichthyidae,family,171414
+Citharichthys,genus,195599
+Citharichthys stigmaeus,species,319775
+Polyplacophora,class,6650
+Neoloricata,order,6651
+Chitonida,suborder,6652
+Acanthochitonina,no rank,291892
+Mopaliidae,family,34585
+Mopalia,genus,256103
+Mopalia muscosa,species,256104
+Asterozoa,superclass,7587
+Asteroidea,class,7588
+Forcipulatacea,superorder,41242
+Forcipulatida,order,7599
+Asteriidae,family,7600
+Pisaster,genus,7610
+Pisaster brevispinus,species,7611
+Skeletonemataceae,family,33848
+Skeletonema,genus,2842
+Skeletonema japonicum,species,267983
+Phyllodocidae,family,195257
+Eulalia,genus,251454
+Eulalia aviculiseta,species,1261548
+Limapontioidea,superfamily,216320
+Limapontiidae,family,71495
+Aplysiopsis,genus,649608
+Aplysiopsis enteromorphae,species,749931
+Rhynchospio,genus,1495098
+Rhynchospio glutaea,species,1495100
+Fragilariophyceae,class,33853
+Fragilariophycidae,no rank,33854
+Fragilariales,order,33855
+Fragilariaceae,family,33856
+Asterionellopsis,genus,33639
+Asterionellopsis glacialis,species,33640
+Sipuncula,subclass,6433
+Phascolosomatidea,infraclass,216209
+Phascolosomatiformes,order,216210
+Phascolosomatidae,family,41795
+Phascolosoma,genus,41796
+Phascolosoma agassizii,species,360543
+Ophiuroidea,class,7618
+Ophiuridea,subclass,133710
+Ophiurida,order,7619
+Ophiurina,suborder,133711
+Gnathophiurina,infraorder,41168
+Amphiuridae,family,106738
+Amphiodia,genus,869199
+Amphiodia cf. urtica KSL-2016,species,1898585
+Amphiodia cf. urtica EAC-2010,species,869207
+Bougainvillia superciliaris,species,645346
+Metridia lucens,species,134763
+Podoplea,superorder,116571
+Poecilostomatoida,order,84310
+Bomolochidae,family,864307
+Bomolochus,genus,864308
+Bomolochus cuneatus,species,864309
+Pseudocalanus minutus,species,148993
+Citharichthys sordidus,species,319774
+Flustrina,suborder,558764
+Buguloidea,superfamily,193209
+Bugulidae,family,10210
+Bugula,genus,10211
+Bugula pacifica,species,83903
+Euopisthobranchia,no rank,6496
+Pteropoda,no rank,977783
+Gymnosomata,order,6512
+Clionidae,family,71514
+Clione,genus,71515
+Clione limacina,species,71516
+Rathkeidae,family,367923
+Rathkea,genus,367924
+Rathkea octopunctata,species,367925
+Tiaropsidae,family,168797
+Tiaropsis,genus,662019
+Tiaropsis multicirrata,species,662020
+Dorvilleidae,family,160440
+Protodorvillea,genus,188468
+Protodorvillea gracilis,species,868045
+Cyclopoida,order,84308
+Cyclopidae,family,84315
+Cyclops,genus,263416
+Cyclops kikuchii,species,1778564
+Oithonidae,family,136189
+Oithona,genus,136190
+Oithona davisae,species,1532565
+Callophyllis sp. BEC-2012,species,1197126
+Anthozoa,class,6101
+Octocorallia,subclass,6132
+Pennatulacea,order,6133
+Subselliflorae,suborder,86568
+Pennatulidae,family,86579
+Ptilosarcus,genus,148586
+Ptilosarcus gurneyi,species,161601
+Metridia gerlachei,species,201685
+Uranoscopiformes,order,1489926
+Ammodytidae,family,84619
+Ammodytes,genus,84620
+Ammodytes hexapterus,species,476914
+Opheliidae,family,36122
+Ophelina,genus,73385
+Ophelina acuminata,species,190468
+unclassified Spionidae,no rank,696335
+Spionidae sp. CMC03,species,875851
+Kallymeniopsis,genus,217485
+Kallymeniopsis oblongifructa,species,217486
+Capitellida,order,6342
+Scalibregmatidae,family,195271
+Scalibregma,genus,195274
+Scalibregma inflatum CMC03,species,1037306
+Amphipholis,genus,48270
+Amphipholis sp. EACO2,species,869184
+unclassified Hydrozoa,no rank,288120
+Hydrozoa sp. prey of Macellomenia sp. KMK-2014,species,1541162
+Tellinoidea,superfamily,98297
+Tellinidae,family,52798
+Angulus,genus,399301
+Angulus nuculoides,species,1421102
+Cephalaspidea,no rank,69554
+Philinoidea,superfamily,71502
+Aglajidae,family,195876
+Aglaja,genus,413656
+Aglaja ocelligera,species,1226706
+Lottia paradigitalis,species,142882
+Tomopteridae,family,397572
+Tomopteris,genus,397573
+Tomopteris sp. MW-2013,species,1302795
+Glyceridae,family,39821
+Glycera,genus,6349
+Glycera robusta,species,529267
+Limecola,genus,1903274
+Limecola balthica,species,1903275
+Limecola balthica balthica,subspecies,1697945
+Pleuronichthys,genus,195633
+Pleuronichthys coenosus,species,269452
+Mediophyceae,class,589449
+Lithodesmiophycidae,subclass,420270
+Lithodesmiales,order,420271
+Lithodesmiaceae,family,49247
+Ditylum,genus,49248
+Ditylum brightwellii,species,49249
+Thalassionemales,order,426665
+Thalassionemataceae,family,38755
+Thalassionema,genus,33648
+Thalassionema nitzschioides,species,33649
+Chthamalidae sp. 144752A,species,1764482
+Brachiopoda,phylum,7568
+Phoroniformea,subphylum,120557
+Phoronis,genus,33504
+Phoronis vancouverensis,species,672013
+zooplankton environmental sample,species,1301311
+Megalomma,genus,431175
+Megalomma splendida,species,868036
+Rhodymeniales,order,29247
+Faucheaceae,family,81601
+Gloiocladia,genus,397495
+Gloiocladia sp. 1laciniata,species,1716043
+Platynereis,genus,6358
+Platynereis bicanaliculata,species,868042
+PX clade,no rank,569578
+Phaeophyceae,phylum,2870
+Ectocarpales,order,2877
+Chordariaceae,family,66220
+Myrionema,genus,86897
+Myrionema balticum,species,190707
+Cancer,genus,6754
+Cancer productus,species,88209
+Callophyllis crenulata,species,217479
+Clytia,genus,13436
+Clytia hemisphaerica,species,252671
+Clytia xiamenensis,species,1246328
+Eucalanidae,family,121137
+Eucalanus,genus,121140
+Eucalanus bungii,species,121138
+Amphissa,genus,1421182
+Amphissa columbiana,species,1421183
+Callophyllis radula,species,1197123
+Callophyllis sp. 1radula,species,1582920
+Hexacorallia,subclass,6102
+Actiniaria,order,6103
+Nynantheae,suborder,86626
+Metridiidae,family,37511
+Metridium,genus,6115
+Metridium senile,species,6116
+Echinacea,superorder,7674
+Echinoida,order,7675
+Strongylocentrotidae,family,31181
+Mesocentrotus,genus,1306076
+Mesocentrotus franciscanus,species,1328066
+Pterocirrus,genus,329436
+Pterocirrus montereyensis,species,1744886
+Hesionidae,family,115834
+Micropodarke,genus,378365
+Micropodarke dubia,species,378366
+Tonicella,genus,256057
+Tonicella lineata,species,256058
+Diaphorodoris,genus,76166
+Diaphorodoris lirulatocauda,species,763121
+Nephtyidae,family,36119
+Bipalponephtys,genus,797521
+Bipalponephtys cornuta,species,714612
+Chaetocerotaceae,family,49236
+Chaetoceros,genus,49237
+Chaetoceros socialis,species,163503
+Terebellidae,family,32261
+Eupolymnia,genus,13518
+Eupolymnia heterobranchia,species,868028
+Holothuroidea,class,7705
+Dendrochirotacea,subclass,7706
+Dendrochirotida,order,7707
+Cucumariidae,family,36325
+Cucumaria,genus,28832
+Cucumaria miniata,species,28833
+Platynereis sp. CMC02,species,868071
+Cirratulidae,family,46590
+Dodecaceria,genus,46591
+Dodecaceria sp. CMC02,species,868056
+Clytia gracilis,species,252669
+Acinetosporaceae,family,142642
+Pylaiella,genus,2882
+Pylaiella littoralis,species,2885
+Pylaiella washingtoniensis,species,1240995
+Tardigrada,phylum,42241
+Heterotardigrada,class,89368
+Echiniscoidea,order,710186
+Echiniscoididae,family,500489
+Echiniscoides,genus,500490
+Echiniscoides sp. Taxon 1,species,1609534
+Echiniscoides sp. NC,species,1196127
+Aeolididina,infraorder,76176
+Fionoidea,superfamily,1287635
+Fionidae,family,1287636
+Eubranchus,genus,71487
+Eubranchus rupium,species,1421122
+Polynoidae,family,46593
+Lepidonotus,genus,222002
+Lepidonotus squamatus CMC01,species,868106
+Capitata,suborder,576756
+Corynidae,family,6077
+Stauridiosarsia,genus,1279101
+Stauridiosarsia producta,species,1793163
+unclassified Porifera,no rank,1006829
+Porifera sp. Sp08,species,1562933
+Fungi,kingdom,4751
+Dikarya,subkingdom,451864
+Basidiomycota,phylum,5204
+Pucciniomycotina,subphylum,29000
+Microbotryomycetes,class,162481
+Sporidiobolales,order,231213
+Sporidiobolaceae,family,1799696
+Rhodotorula,genus,5533
+Rhodotorula taiwanensis,species,741276
+Rhodotorula taiwanensis RS1,no rank,1246992
+Palmariales,order,2819
+Palmariaceae,family,2820
+Palmaria,genus,2821
+Palmaria mollis,species,700711
+environmental samples,no rank,58772
+Arthropoda environmental sample,species,260574
+Oregoniidae,family,553066
+Oregonia,genus,553029
+Oregonia gracilis,species,553030
+Hexapoda,superclass,6960
+Insecta,class,50557
+Dicondylia,no rank,85512
+Pterygota,subclass,7496
+Neoptera,infraclass,33340
+Holometabola,superorder,33392
+Hymenoptera,order,7399
+Apocrita,suborder,7400
+Aculeata,infraorder,7434
+Vespoidea,superfamily,34725
+Formicidae,family,36668
+Formicinae,subfamily,7479
+Lasiini,tribe,72772
+Lasius,genus,7482
+Lasius,subgenus,488720
+Lasius pallitarsis,species,262030
+Geminosyllis,genus,418321
+Geminosyllis ohma,species,418322
+Dasyaceae,family,35164
+Heterosiphonia,genus,94296
+Heterosiphonia sp. GWS002971,species,746115
+Chthamalidae sp. 144769A,species,1764483
+Chthamalidae sp. 144736A,species,1764480
+Cuthonella,genus,1765643
+Cuthonella cocoachroma,species,763117
+Chelicerata,subphylum,6843
+Arachnida,class,6854
+Acari,subclass,6933
+Acariformes,superorder,6946
+Sarcoptiformes,no rank,83137
+Oribatida,order,66551
+Brachypylina,suborder,229894
+Phenopelopoidea,superfamily,198278
+Phenopelopidae,family,198279
+unclassified Phenopelopidae,no rank,1687893
+Phenopelopidae sp. BOLD:ACI9045,species,1687899
+Glycera capitata,species,529148
+Polysiphonia pacifica,species,173544
+Veneroidea,superfamily,74489
+Veneridae,family,6592
+Saxidomus,genus,311200
+Saxidomus gigantea,species,410349
+Bugula turbinata,species,297737
+Ruditapes,genus,186463
+Ruditapes philippinarum,species,129788
+Scagelia,genus,326250
+Scagelia occidentale,species,326251
+Anaitides,genus,328585
+Anaitides sp. THS-2005,species,328586
+Pugetia,genus,217477
+Pugetia fragilissima,species,217487
+Monstrilloida,order,84311
+Monstrillidae,family,389308
+Monstrilla,genus,389309
+Monstrilla helgolandica,species,1732114
+Solieriaceae,family,31441
+Sarcodiotheca,genus,31446
+Sarcodiotheca sp. 2gaudichaudii,species,1583048
+Dumontiaceae,family,31415
+Weeksia,genus,87833
+Weeksia coccinea,species,142493
+Pugetia cryptica,species,1037065
+Gloiocladia fryeana,species,522301
+unclassified Gigartinales,no rank,38793
+Opuntiella,genus,38361
+Opuntiella californica,species,38362
+Opuntiella sp. 1californica,species,1583037
+Scytosiphonaceae,family,2891
+Petalonia,genus,2892
+Petalonia filiformis,species,1240993
+Rhodymeniaceae,family,31501
+Sparlingia,genus,81616
+Sparlingia pertusa,species,81617
+Fucales,order,3009
+Fucaceae,family,3010
+Fucus,genus,3011
+Fucus distichus,species,3012
+Hippothooidea,superfamily,193238
+Hippothoidae,family,97246
+Celleporella,genus,60592
+Celleporella hyalina,species,60593
+Halosydna,genus,328595
+Halosydna brevisetosa,species,328596
+Caulacanthaceae,family,38384
+Caulacanthus,genus,31410
+Caulacanthus ustulatus,species,31411
+Bangiophyceae,class,2797
+Bangiales,order,29216
+Bangiaceae,family,31345
+Bangia,genus,31346
+Bangia sp. 1BAN,species,1053098
+Pandaloidea,superfamily,115583
+Pandalidae,family,6701
+Pandalus,genus,6702
+Pandalus danae,species,397975
+Gobiaria,no rank,1489875
+Gobiiformes,order,1489878
+Gobioidei,suborder,8219
+Gobiidae,family,8220
+Gobiinae,subfamily,497223
+Rhinogobiops,genus,151722
+Rhinogobiops nicholsii,species,151723
+Clitellata,class,42113
+Oligochaeta,subclass,6381
+Haplotaxida,order,6382
+Tubificina,suborder,6383
+Tubificidae,family,41692
+Naidinae,subfamily,1780200
+Chaetogaster,genus,74726
+Chaetogaster diastrophus,species,74727
+Cancer antennarius,species,34650
+Macoma,genus,52799
+Macoma nasuta,species,244423
+Poecilosclerida,order,27925
+Myxillidae,family,118318
+Myxilla,genus,118320
+Myxilla sp. SV-2015,species,1658081
+Myxilla mollis,species,1658080
+Hyalodiscaceae,family,265573
+Podosira,genus,265574
+Podosira stelligera,species,265575
+Siphonophorae,order,42759
+Physonectae,suborder,42760
+Agalmatidae,family,168757
+Nanomia,genus,168758
+Nanomia bijuga,species,168759
+Viridiplantae,kingdom,33090
+Chlorophyta,phylum,3041
+Trebouxiophyceae,class,75966
+Microthamniales,order,42111
+Trebouxia,genus,13786
+Trebouxia aggregata,species,160068
+Pleopis,genus,186177
+Pleopis polyphemoides,species,186178
+Chitonina,no rank,291862
+Ischnochitonidae,family,27822
+Lepidozona,genus,55526
+Lepidozona mertensii,species,256066
+Alia gausapata,species,1842842
+Eumida,genus,328591
+Eumida longicornuta,species,1261549
+Hecatonema,genus,86887
+Hecatonema maculans,species,1535340
+Glebocarcinus,genus,1235681
+Glebocarcinus oregonensis,species,1842845
+Cancer jordani,species,504413
+Cancer oregonensis,species,88208
+Mytilus edulis,species,6550
+Polysiphonia hendryi,species,1583041
+Cottioidei,suborder,8100
+Cottales,infraorder,1490021
+Liparidae,family,183715
+Liparis,genus,183716
+Liparis fucensis,species,433401
+Diptera,order,7147
+Nematocera,suborder,7148
+Bibionomorpha,infraorder,43784
+Sciaroidea,superfamily,41830
+Sciaridae,family,7184
+unclassified Sciaridae,no rank,265459
+Sciaridae sp. BOLD-2016,species,1881792
+Bradysia,genus,35571
+Bradysia sp. BOLD-2016,species,1888048
+Sciaridae sp. CNWLH399-12,species,1744551
+Agaricomycotina,subphylum,5302
+Agaricomycetes,class,155619
+Agaricomycetidae,subclass,452333
+Agaricales,order,5338
+Entolomataceae,family,71934
+unclassified Entolomataceae,no rank,1045978
+Entolomataceae sp. TRTC156478,species,1045979
+Spinulosacea,superorder,41245
+Velatida,order,7591
+Solasteridae,family,7596
+Solaster,genus,7597
+Solaster endeca,species,290515
+Acartia tonsa,species,136180
+Acartia hudsonica,species,198241
+Eunicidae,family,104737
+Eunice,genus,73379
+Eunice valens,species,759316
+Hemipodia,genus,1746055
+Hemipodia simplex,species,1746056
+Pterosiphonia,genus,756392
+Pterosiphonia sp. 1dendroidea,species,1582979
+Peyssonneliaceae,family,173455
+Peyssonnelia,genus,173456
+unclassified Peyssonnelia,no rank,512125
+Peyssonnelia sp. 3BC,species,1582985
+Ammodytes cf. personatus SVT-2013,species,1345640
+Ammodytes cf. personatus BOLD:AAB8001,species,980322
+Ammodytes personatus,species,215382
+unclassified Chordariaceae,no rank,1419720
+Chordariaceae sp. 17 AP-2014,species,1535390
+Ptenoglossa,infraorder,216299
+Janthinoidea,superfamily,216301
+Epitoniidae,family,69584
+Epitonium,genus,69585
+Epitonium sawinae,species,1842844
+Laminariocolax,genus,64910
+Laminariocolax aecidioides,species,68331
+Katharina,genus,34586
+Katharina tunicata,species,34587
+Eirenidae,family,48402
+Eutonina,genus,500024
+Eutonina indicans,species,500057
+Suberitidae,family,55660
+Suberites,genus,55566
+Suberites sp. UCMPWC859,species,283539
+Syllis elongata CMC01,species,868125
+Littorina scutulata,species,31221
+Keratosa,subclass,1779147
+Dendroceratida,order,119424
+Halisarcidae,family,253170
+Halisarca,genus,253171
+Halisarca dujardini,species,253172
+Apodacea,subclass,7694
+Apodida,order,7701
+Synaptidae,family,7702
+Leptosynapta,genus,7703
+Leptosynapta clarki,species,747474
+Esperiopsidae,family,72179
+Amphilectus,genus,942673
+Amphilectus fucorum,species,942674
+Haptophyceae,no rank,2830
+Isochrysidales,order,73020
+Noelaerhabdaceae,family,418966
+Emiliania,genus,2902
+environmental samples,no rank,660912
+uncultured Emiliania,species,660913
+Emiliania huxleyi,species,2903
+Cuthona,genus,154643
+Cuthona divae,species,1154714
+Haplosclerida,order,6049
+Chalinidae,family,6056
+Haliclona,genus,6057
+Haliclona cf. caerulea Palmyra Atoll 15,species,1713837
+Haliclona cf. caerulea Palmyra Atoll 13,species,1713835
+Haliclona cf. caerulea Palmyra Atoll 12,species,1713834
+Haliclona cf. caerulea Palmyra Atoll 11,species,1713833
+Haliclona cf. caerulea Palmyra Atoll 4,species,1713826
+Haliclona cf. caerulea Palmyra Atoll 3,species,1713825
+Haliclona cf. caerulea Palmyra Atoll 2,species,1713824
+Sarcopterygii,no rank,8287
+Dipnotetrapodomorpha,no rank,1338369
+Tetrapoda,no rank,32523
+Amniota,no rank,32524
+Mammalia,class,40674
+Theria,no rank,32525
+Eutheria,no rank,9347
+Boreoeutheria,no rank,1437010
+Euarchontoglires,superorder,314146
+Primates,order,9443
+Haplorrhini,suborder,376913
+Simiiformes,infraorder,314293
+Catarrhini,parvorder,9526
+Hominoidea,superfamily,314295
+Hominidae,family,9604
+Homininae,subfamily,207598
+Homo,genus,9605
+Homo sapiens,species,9606
+Callophyllis flabellulata,species,217481
+Opuntiella sp. 2californica,species,1267908
+Corallophila,genus,326254
+Corallophila eatoniana,species,326255
+Calyptraeoidea,superfamily,52626
+Calyptraeidae,family,52627
+Crepidula,genus,52628
+Crepidula fimbriata,species,211753
+Archaeobalanidae,family,1072554
+Semibalanus,genus,94629
+Semibalanus cariosus,species,261876
+Mopalia swanii,species,413429
+Phloeodictyidae,family,283401
+Calyx,genus,295246
+Calyx arcuarius,species,1658070
+Sarsia,genus,6078
+Sarsia sp. SL-2013,species,1345085
+Kappaphycus,genus,38543
+Kappaphycus sp. 'Hainan',species,1227380
+Ectocarpaceae,family,2878
+Ectocarpus,genus,2879
+unclassified Ectocarpus,no rank,867790
+Ectocarpus sp. 8 AP-2014,species,1535364
+Staurozoa,class,1927913
+Stauromedusae,order,37528
+Myostaurida,suborder,1927915
+Haliclystidae,family,1927917
+Manania,genus,1843203
+Manania gwilliami,species,1843204
+Microcionidae,family,27926
+Holopsamma,genus,458499
+Holopsamma helwigi,species,458500
+Crepipatella,genus,211796
+Crepipatella lingulata,species,211801
+Soranthera,genus,328986
+Soranthera ulvoidea,species,328987
+Ralfsiales,order,891380
+Ralfsiaceae,family,31334
+unclassified Ralfsiaceae,no rank,1583081
+Ralfsioid sp. 4GWS,species,1583082
+Protura,class,29999
+Protura,order,1652079
+Sinentomata,suborder,566642
+Fujientomidae,family,289456
+Fujientomon,genus,289457
+Fujientomon dicestum,species,289458
+environmental samples,no rank,333477
+Cyclopoida environmental sample,species,664319
+Agonidae,family,30972
+Hemitripterinae,subfamily,1545924
+Nautichthys,genus,274771
+Nautichthys oculofasciatus,species,428032
+Plumulariidae,family,308572
+Plumularia,genus,308573
+Plumularia setacea,species,308574
+Nereis,genus,6351
+Nereis pelagica CMC01,species,868117
+Pandalus stenolepis,species,397980
+Hippoglossoides,genus,30944
+Hippoglossoides elassodon,species,30945
+Hippoglossoides robustus,species,382953
+Majidae,family,6805
+Chionoecetes,genus,41209
+Chionoecetes bairdi,species,232428
+Cryptochiton,genus,6654
+Cryptochiton stelleri,species,6655
+Gattyana,genus,328593
+Gattyana cirrhosa,species,862912
+Anomura,infraorder,6738
+Galatheoidea,superfamily,115588
+Munididae,family,1124584
+Munida,genus,136693
+Munida quadrispina,species,177235
+Paracanthomorphacea,no rank,1489838
+Zeiogadaria,no rank,1489841
+Gadariae,no rank,1489843
+Gadiformes,order,8043
+Gadoidei,suborder,1489845
+Gadidae,family,8045
+Gadus,genus,8048
+Gadus chalcogrammus,species,1042646
+environmental samples,no rank,1476749
+fish environmental sample,species,1476750
+Gadus chalcogrammus chalcogrammus,subspecies,442960
+Phyllodoce,genus,222014
+Phyllodoce groenlandica,species,329443
+Hyas,genus,361633
+Hyas coarctatus,species,362706
+Cucumaria piperata,species,42204
+Harmothoe,genus,46594
+Harmothoe imbricata CMC05,species,867317
+Phyllophoridae,family,42389
+Thyonidium,genus,869204
+Thyonidium drummondii,species,869205
+Capuloidea,superfamily,216295
+Trichotropidae,family,211820
+Trichotropis,genus,211821
+Trichotropis cancellata,species,211822
+Calanus marshallae,species,136139
+Calanus glacialis,species,113644
+Pentamera,genus,42390
+Pentamera cf. pseudocalcigera EAC-2010,species,861516
+Isopoda,order,29979
+Epicaridea,suborder,96842
+Bopyridoidea,superfamily,116689
+Bopyridae,family,155698
+Bopyroides,genus,398853
+Bopyroides hippolytes,species,398854
+Bylgides,genus,868080
+Bylgides macrolepidus,species,868081
+Metacarcinus magister,species,29965
+Enopla,class,6225
+Bdellonemertini,subclass,592023
+Bdellonemertea,order,88946
+Malacobdellidae,family,592024
+Malacobdella,genus,166026
+Malacobdella grossa,species,166027
+Crangon communis,species,397944
+Polysiphonia brodiei,species,159751
+Gattyana ciliata,species,328594
+Pinnixa,genus,84655
+Pinnixa faba,species,585914
+Hermaeidae,family,749955
+Hermaea,genus,749956
+Hermaea oliviae,species,1522319
+Eunoe,genus,862924
+Eunoe sp. BOLD:AAG5099,species,1082621
+Mopalia kennerleyi,species,413425
+Pandalus borealis,species,6703
+Tonicella undocaerulea,species,1421153
+Thysanoessa,genus,48145
+Thysanoessa raschii,species,409302
+Mopalia sinuata,species,430715
+Hyas araneus,species,361634
+Ascomycota,phylum,4890
+saccharomyceta,no rank,716545
+Pezizomycotina,subphylum,147538
+leotiomyceta,no rank,716546
+dothideomyceta,no rank,715962
+Dothideomycetes,class,147541
+Dothideomycetidae,subclass,451867
+Capnodiales,order,134362
+Cladosporiaceae,family,452563
+Cladosporium,genus,5498
+Cladosporium bruhnei,species,450181
+Brachycera,suborder,7203
+Muscomorpha,infraorder,43733
+Eremoneura,no rank,480118
+Cyclorrhapha,no rank,480117
+Aschiza,no rank,43737
+Platypezoidea,superfamily,43739
+Phoridae,family,36164
+Metopininae,subfamily,43831
+Megaseliini,tribe,192434
+Megaselia,genus,36165
+Megaselia sp. BOLD-2016,species,1881774
+unclassified Phoridae,no rank,82169
+Phoridae sp. BOLD:AAP6422,species,1694394
+Paguroidea,superfamily,6744
+Paguridae,family,6745
+Pagurus,genus,6746
+Pagurus hirsutiusculus,species,174398
+Cladosporium herbarum,species,29918
+Dictyosiphon,genus,64908
+Dictyosiphon sp. 3GWS,species,1241005
+Amphiesmenoptera,no rank,85604
+Lepidoptera,order,7088
+Glossata,suborder,41191
+Neolepidoptera,infraorder,41196
+Heteroneura,parvorder,41197
+Ditrysia,no rank,37567
+Gelechioidea,superfamily,37581
+Autostichidae,family,347822
+Symmocinae,subfamily,262434
+Oegoconia,genus,347753
+Oegoconia novimundi,species,454280
+Psettichthys,genus,195638
+Psettichthys melanostictus,species,195639
+Laminariocolax macrocystis,species,68333
+Cuthona sp. 7 CCS-2010,species,763539
+Mopalia cirrata,species,430718
+Gigartinaceae,family,29217
+Chondracanthus,genus,29218
+Chondracanthus exasperatus,species,95348
+Chaetopteridae,family,6378
+Mesochaetopterus,genus,104706
+Mesochaetopterus taylori,species,352254
+Ophiactidae,family,41169
+Ophiopholis,genus,35051
+Ophiopholis kennerlyi,species,869194
+Clionaida,order,1779155
+Clionaidae,family,76784
+Cliona,genus,76785
+Cliona chilensis,species,880269
+Lithodidae,family,6739
+Cryptolithodes,genus,174326
+Cryptolithodes typicus,species,174328
+Pugettia gracilis,species,553013
+Neocalanus,genus,119367
+Neocalanus plumchrus,species,119370
+Phyllophoraceae,family,28021
+Ozophora,genus,38479
+Ozophora norrisii,species,207666
+Eucalanus californicus,species,248753
+unclassified Cirratulidae,no rank,862960
+Cirratulidae sp. BOLD:AAH0062,species,1082620
+Hyas coarctatus alutaceus,subspecies,362707
+Clausocalanus,genus,148995
+Clausocalanus parapergens,species,149007
+Platichthys,genus,8259
+Platichthys stellatus,species,195632
+Pandalus goniurus,species,397976
+Mazzaella,genus,29228
+Mazzaella splendens,species,29236
+Pyropia,genus,1094566
+Pyropia nereocystis,species,1683810
+Hoplonemertea,subclass,6226
+Monostilifera,order,6227
+Emplectonematidae,family,6228
+Emplectonema,genus,6229
+Emplectonema buergeri,species,187653
+Stenogramma,genus,32601
+Stenogramma rhodymenioides,species,207669
+Sarsia tubulosa,species,264121
+Cypraeoidea,superfamily,69556
+Velutinidae,family,217735
+Marsenina,genus,1631788
+Marsenina zadei,species,1631789
+Strongylocentrotus,genus,7664
+Strongylocentrotus droebachiensis,species,7671
+Acrochaetiales,order,31355
+Acrochaetiaceae,family,31356
+Acrochaetium,genus,31357
+Acrochaetium plumosum,species,1582912
+Oomycetes,class,4762
+Pythiales,order,121069
+Pythiaceae,family,4782
+Pythium,genus,4797
+unclassified Pythium,no rank,228096
+Pythium sp. CAL-2011c,species,946377
+Lagenidiales,order,4800
+Lagenidiaceae,family,4801
+Lagenidium,genus,4802
+Lagenidium caudatum,species,135481
+Stauridiosarsia cliffordi,species,1793162
+Syllis alternata CMC02,species,868121
+Microcladia,genus,326256
+Microcladia coulteri,species,710543
+Suberites pagurorum,species,942658
+Amphibalanus,genus,637416
+Amphibalanus improvisus,species,1220549
+Thelepus,genus,36106
+Thelepus cincinnatus,species,36107
+Glycera nana,species,529236
+Nereis vexillosa,species,335489
+Coryne,genus,58816
+Coryne eximia,species,264117
+Peyssonnelia sp. 10BC,species,1582982
+Eudistylia,genus,6363
+Eudistylia vancouveri,species,6364
+prasinophytes,no rank,3152
+Mamiellophyceae,class,1035538
+Mamiellales,order,13792
+Mamiellaceae,family,41873
+Micromonas,genus,38832
+Micromonas pusilla,species,38833
+Dodecaceria sp. CMC01,species,868055
+Epigamia,genus,418315
+Epigamia magna,species,884645
+Corallinophycidae,subclass,1443949
+Corallinales,order,31395
+Corallinaceae,family,31396
+Corallinoideae,subfamily,48611
+Crusticorallina,genus,1883118
+Crusticorallina adhaerens,species,1883120
+Pseudolithophyllum,genus,239170
+Pseudolithophyllum sp. 5muricatum,species,1141739
+Flabellinoidea,superfamily,1287639
+Flabellinidae,family,71483
+Flabellina,genus,71484
+Flabellina sp. KL01,species,1421156
+Leathesia,genus,27962
+Leathesia marina,species,1053873
+Phasianelloidea,superfamily,1756885
+Colloniidae,family,1756887
+Homalopoma,genus,216103
+Homalopoma baculum,species,1421126
+Haliclona xena,species,177572
+Rhodochorton,genus,39575
+Rhodochorton sp. 2BC,species,1271531
+Rhodochorton sp. GWS-2015a,species,1755298
+Pseudolithophyllum sp. 2whidbeyense,species,1503848
+Amoebozoa,no rank,554915
+Discosea,no rank,555280
+Flabellinia,no rank,1485085
+Dactylopodida,no rank,555392
+Squamamoeba,genus,1280930
+Squamamoeba japonica,species,1167875
+Bacillariophyceae,class,33849
+Bacillariophycidae,no rank,33850
+Bacillariales,order,33851
+Bacillariaceae,family,33852
+Pseudo-nitzschia,genus,41953
+Pseudo-nitzschia delicatissima,species,44447
+Bathycoccaceae,family,1525212
+Bathycoccus,genus,41874
+Bathycoccus prasinos,species,41875
+Calyptraea,genus,146263
+Calyptraea fastigata,species,211685
+Spinulosida,order,55644
+Echinasteridae,family,60576
+Henricia,genus,60577
+Henricia sp. AAI1811,species,1898578
+Henricia sp. BOLD:AAI1811,species,1106101
+Culicomorpha,infraorder,43786
+Chironomoidea,superfamily,41828
+Chironomidae,family,7149
+unclassified Chironomidae,no rank,305539
+Chironomidae sp. BOLD-2016,species,1881752
+Bugula dentata,species,178312
+Scyphozoa,class,6142
+Semaeostomeae,order,6143
+Ulmaridae,family,37526
+Aurelia,genus,6144
+Aurelia labiata,species,184214
+Harpacticoida,order,41212
+unclassified Harpacticoida,no rank,610333
+Harpacticoida sp. DNZ085,species,1484672
+Pista,genus,104724
+Pista wui,species,868041
+Phyllodoce medipapillata,species,868040
+Stephanopyxidaceae,family,33842
+Stephanopyxis,genus,3006
+Stephanopyxis turris,species,515487
+Callophyllis violacea,species,31433
+Polycirrus,genus,516039
+Polycirrus sp. CMC05,species,868074
+Neoamphitrite,genus,868090
+Neoamphitrite robusta CMC02,species,868113
+Wildemania,genus,1034309
+Wildemania amplissima,species,1034310
+Pseudosuberites,genus,283540
+Pseudosuberites nudus,species,1658086
+Halichondria sp. DE-2012,species,1165036
+Colaconematales,order,658648
+Colaconemataceae,family,658649
+Colaconema,genus,173032
+Colaconema pectinatum,species,209635
+Ectocarpus siliculosus,species,2880
+Compsopogonophyceae,class,930023
+Erythropeltidales,order,31351
+Erythropeltidaceae,family,33660
+Smithora,genus,33661
+Smithora naiadum,species,82561
+Grammonema,genus,497706
+Grammonema striatula,species,33645
+Pholoe,genus,222012
+Pholoe sp. CMC02,species,868068
+Cratenemertidae,family,187722
+Nipponnemertes,genus,324885
+Nipponnemertes bimaculata,species,187721
+Cirratulus,genus,104698
+Cirratulus cf. cirratus MW-2014,species,1549852
+Cirratulus cirratus CMC01,species,868099
+Scalidophora,superphylum,1215728
+Priapulida,phylum,33467
+Priapulidae,family,37891
+Priapulus,genus,37847
+Priapulus caudatus,species,37621
+Cecidomyiidae,family,33406
+unclassified Cecidomyiidae,no rank,329961
+Cecidomyiidae sp. BOLD-2016,species,1881751
+Callophyllis beringensis,species,1197119
+Aspidochirotacea,subclass,7681
+Aspidochirotida,order,7682
+Stichopodidae,family,7687
+Parastichopus,genus,7688
+Parastichopus californicus,species,7689
+Leptofauchea,genus,319518
+Leptofauchea pacifica,species,319519
+Bergstroemia,genus,868078
+Bergstroemia nigrimaculata,species,868079
+Orthocladiinae,subfamily,43808
+unclassified Orthocladiinae,no rank,559852
+Orthocladiinae sp. BOLD-2016,species,1881783
+Odonthalia,genus,282365
+Odonthalia floccosa,species,282366
+Mastocarpus,genus,29226
+Mastocarpus latissimus,species,1088773
+Mastocarpus papillatus complex,no rank,415930
+Mastocarpus papillatus BOLD:AAA5480,species,1051354
+Haliclystus,genus,37533
+Haliclystus sanjuanensis,species,168739
+Gloiosiphoniaceae,family,31424
+Gloiosiphonia,genus,31425
+Gloiosiphonia verticillaris,species,1583022
+Pycnococcaceae,family,41878
+Pycnococcus,genus,41879
+Pycnococcus provasolii,species,41880
+Cymatosirophycidae,subclass,420265
+Cymatosirales,order,420262
+Cymatosiraceae,family,49244
+Minutocellus,genus,265542
+Minutocellus polymorphus,species,265543
+Nemastomatales,order,199699
+Schizymeniaceae,family,42185
+Schizymenia,genus,38367
+Schizymenia pacifica,species,38372
+Petalonia fascia,species,2893
+Schizophora,no rank,43738
+Calyptratae,no rank,43742
+Muscoidea,superfamily,43754
+Fanniidae,family,27471
+Fannia,genus,95468
+Fannia armata,species,95469
+Orthocladius,genus,288845
+Orthocladius sp. BOLD-2016,species,1887114
+Scytosiphon,genus,27966
+Scytosiphon lomentaria,species,27967
+Scytosiphon sp. 1 GWS-2013,species,1403535
+Sarcodiotheca furcata,species,38401
+Oceaniidae,family,367915
+Turritopsis,genus,308578
+Turritopsis lata,species,1246326
+Calycella,genus,314528
+Calycella syringa,species,314529
+Ectocarpus sp. 3 AP-2014,species,1535359
+Lottia scutum,species,351231
+Eubranchus rustyus,species,763125
+Hymenena,genus,128538
+Hymenena kylinii,species,994792
+Hymenena sp. GWS002901,species,746116
+Actiniidae,family,42822
+Urticina,genus,45620
+Urticina eques,species,417072
+Urticina lofotensis,species,57904
+Urticina crassicornis,species,45621
+Urticina sp. 'Reversing Falls miniature',species,57905
+Haliclona sp. E GPM-2011,species,1091071
+Haliclona implexiformis,species,458497
+Neoamphitrite robusta CMC01,species,868112
+Orbiniidae,family,46603
+Naineris,genus,273008
+Naineris quadricuspida,species,273010
+Hymedesmiidae,family,252956
+Phorbas,genus,252957
+Phorbas bihamiger,species,1336880
+Dorvillea,genus,160441
+Dorvillea sp. CMC02,species,868058
+Hiatella,genus,120430
+Hiatella sp. I HML-2015,species,1638754
+Halymeniales,order,50289
+Halymeniaceae,family,31453
+Prionitis,genus,31456
+Prionitis sternbergii,species,469967
+Pyropia perforata,species,182771
+Rhodoptilum,genus,189645
+Rhodoptilum plumosum,species,189646
+Euthora,genus,173451
+Euthora timburtonii,species,994791
+Fucus spiralis,species,87149
+Fucus vesiculosus,species,49266
+Pycnogonida,class,57294
+Pantopoda,order,373319
+Phoxichilidiidae,family,88311
+Anoplodactylus,genus,88309
+Anoplodactylus viridintestinalis,species,373268
+Corambe,genus,1639836
+Corambe steinbergae,species,1639839
+Gracilariales,order,31468
+Gracilariaceae,family,31469
+Gracilariopsis,genus,2781
+Gracilariopsis andersonii,species,408198
+Gracilariopsis lemaneiformis,species,2782
+Psolidae,family,36322
+Psolus,genus,36323
+Psolus chitonoides,species,42201
+Neorhodomela,genus,159597
+Neorhodomela oregona,species,756387
+Strongylocentrotus pallidus,species,7670
+Myrianida,genus,199196
+Myrianida irregularis,species,884652
+Membranoptera,genus,158697
+Membranoptera platyphylla,species,1204437
+Skeletonema marinoi-dohrnii complex,no rank,1171708
+Skeletonema dohrnii,species,267566
+Skeletonema marinoi,species,267567
+Fryeellaceae,family,748682
+Fryeella,genus,81604
+Fryeella gardneri,species,81605
+Myrianida dentalia,species,884648
+Acrochaetium alariae,species,1403454
+Acrochaetium sp. GWS002149,species,746114
+Porphyra,genus,2784
+Porphyra mumfordii,species,182768
+Laonice cirrata CMC02,species,868104
+unclassified Sabellidae,no rank,862961
+Sabellidae sp. CMC01,species,875828
+Cladosporium tenuissimum,species,70808
+Blepsias,genus,573212
+Blepsias cirrhosus,species,573213
+Nautichthys robustus,species,557353
+Thalassiosira punctigera,species,265564
+Polycirrus sp. CMC02,species,868072
+Harmothoe imbricata CMC01,species,867316
+Lepetodriloidea,superfamily,216279
+Lepetodrilidae,family,47540
+Clypeosectus,genus,205505
+Clypeosectus sp. CET-2005,species,315761
+Cryptopleura,genus,131057
+Cryptopleura ruprechtiana,species,131095
+Microspongium,genus,133513
+Microspongium tenuissimum,species,190706
+Cottidae,family,8092
+Artedius,genus,274757
+Artedius harringtoni I,species,1154591
+Artedius harringtoni,species,433399
+Mopalia lignosa,species,413426
+Sargassaceae,family,3014
+Sargassum,genus,3015
+Sargassum muticum,species,74468
+Sargassum confusum,species,74091
+Silvetia,genus,93834
+Silvetia siliquosa,species,93837
+Sargassum naozhounse,species,1159338
+Amphiporidae,family,120982
+Amphiporus,genus,120983
+Amphiporus imparispinosus,species,187593
+Plumularia lagenifera,species,401960
+Bangia fuscopurpurea,species,101920
+Senticaudata,suborder,1732196
+Corophiida,infraorder,1732200
+Caprellidira,parvorder,116674
+Photoidea,superfamily,1732212
+Ischyroceridae,family,371444
+Jassa,genus,371448
+Jassa staudei,species,496418
+Mazzaella rosea,species,95357
+Rhynchonelliformea,subphylum,115369
+Rhynchonellata,class,115371
+Terebratulida,order,7578
+Terebratellidina,suborder,115390
+Laqueoidea,superfamily,115392
+Laqueidae,family,33476
+Terebratalia,genus,34512
+Terebratalia transversa,species,34513
+Pseudoscourfieldia,genus,41885
+Pseudoscourfieldia marina,species,41886
+Callyspongiidae,family,178536
+Callyspongia,genus,178537
+Callyspongia siphonella,species,469330
+Syllis elongata CMC02,species,868126
+Callophyllis heanophylla,species,1197121
+Prionospio,genus,94674
+Prionospio steenstrupi,species,94675
+Cylindrotheca,genus,2852
+Cylindrotheca closterium,species,2856
+Oweniida,infraorder,725113
+Oweniidae,family,39832
+Galathowenia,genus,1037241
+Galathowenia oculata,species,1037242
+Harmothoe imbricata CMC03,species,880912
+Biddulphiophycidae,subclass,33837
+Hemiaulales,order,420267
+Hemiaulaceae,family,49250
+Eucampia,genus,49251
+Eucampia zodiacus,species,444606
+Pseudo-nitzschia hasleana,species,1041512
+Pisaster ochraceus,species,7612
+Evasterias,genus,7615
+Evasterias troschelii,species,7616
+Cardioidea,superfamily,105710
+Cardiidae,family,55708
+Clinocardium,genus,241157
+Clinocardium nuttallii,species,410350
+Dictyochophyceae,class,39119
+Dictyochales,order,35685
+Dictyocha,genus,35686
+Dictyocha speculum,species,35687
+Aplanulata,suborder,1612408
+Corymorphidae,family,264056
+Hataia,genus,1186926
+Hataia parva,species,1186927
+Turnerella,genus,38559
+Turnerella sp. 1Cal,species,1583050
+Stiliger,genus,649605
+Stiliger fuscovittatus,species,1522354
+Neotrypaea sp. SP10 BP-2008,species,491801
+Platyhelminthes,phylum,6157
+Cestoda,class,6199
+Eucestoda,subclass,6200
+Tetrabothriidea,order,108281
+Tetrabothriidae,family,108283
+unclassified Tetrabothriidae,no rank,1577534
+Tetrabothriidae sp. BOLD:AAM7874,species,1577535
+Melicertidae,family,323305
+Melicertum,genus,323306
+Melicertum octocostatum,species,323307
+Leitoscoloplos,genus,273004
+Leitoscoloplos pugettensis CMC01,species,868105
+Polychaeta incertae sedis,no rank,1649654
+Saccocirridae,family,36128
+Saccocirrus,genus,36129
+Saccocirrus sp. CMC01,species,868076
