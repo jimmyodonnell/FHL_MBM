@@ -35,6 +35,9 @@ blast_output_files <- c(
   genbank = "blast/genbank/blast_results_nogit.txt"
 )
 
+# table of BMBM id numbers to taxon names
+local_taxon_db_file <- "fhl_co1/fhl_mbm_co1.csv"
+
 # blast_out_headers <- list(
 #   c("qseqid", "sallseqid", "pident", "length", "mismatch", "gapopen", 
 #     "qstart", "qend", "sstart", "send", "evalue", "bitscore", "staxids", 
@@ -59,6 +62,9 @@ counts_table <- fread(input = file.path(data_dir, counts_table_file))
 dim(counts_table)
 counts_table[1:5, 1:5]
 
+# table of BMBM id numbers to taxon names
+local_taxon_db <- fread(input = file.path(data_dir, local_taxon_db_file), 
+                        header = FALSE)
 
 # get header information.
 blast_script <- readLines(file.path(data_dir, blast_script_file))
@@ -72,6 +78,13 @@ length(blast_out_header)
 for(i in 1:length(blast_out_raw)){
   names(blast_out_raw[[i]]) <- blast_out_header
 }
+
+# Use just the ID, rather than the taxon name from local blast results
+id_only <- sapply(strsplit(blast_out_raw[["local"]]$sallseqid, "|", fixed = TRUE), 
+       function(x) x[[1]])
+
+# add it to the data
+blast_out_raw[["local"]][,sallseqid := id_only]
 
 for(i in 1:length(blast_out_raw)){
   in_blastout <- length(
@@ -266,20 +279,36 @@ hits_genbank$hit_name %>%
   unlist %>%
   unique -> taxid_uniq
 
-unlist(strsplit(hits_genbank$hit_name[920:940], split = ";"))
+classifications <- classification(x = taxid_uniq, db = "ncbi")
 
-tax_ann <- data.table(qseqid = counts_table[,Representative_Sequence])
+# collapse into a single data frame, and omit duplicate rows.
+class_dt <- unique(rbindlist(classifications))
+names(class_dt)[1] <- "taxon_name"
 
-library(plyr)
-join(tax_ann, blast_hits, type = "left")
+# add the local taxon db
+names(local_taxon_db) <- c("id", "taxon_name")
+class_dt <- rbind(class_dt, local_taxon_db, fill = TRUE)
 
-merge(x = tax_ann, y = hits_local)
-
-dt1 <- data.table(let = letters[1:26])
-reordered <- sample(1:20)
-dt2 <- data.table(
-  let = letters[reordered], 
-  num = reordered
+tax_ann <- merge(
+  x = blast_hits, 
+  y = class_dt[,c("taxon_name", "id")], 
+  by.x = "hit_name", 
+  by.y = "id", 
+  all.x = TRUE
 )
-library(plyr)
-join(dt1, dt2, type = "left")
+
+no_names <- which(is.na((tax_ann$taxon_name)))
+
+multi_hit <- tax_ann[no_names,hit_name]
+
+get_multitax <- function(x) {
+  split_tax <- strsplit(x, split = ";")
+  sapply(split_tax, 
+    function(y) paste(class_dt[id %in% y,taxon_name], collapse = ";")
+    )
+}
+multi_tax <- get_multitax(multi_hit)
+
+tax_ann[no_names, taxon_name := get_multitax(multi_hit)]
+
+
