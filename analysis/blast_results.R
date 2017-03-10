@@ -80,8 +80,10 @@ for(i in 1:length(blast_out_raw)){
 }
 
 # Use just the ID, rather than the taxon name from local blast results
-id_only <- sapply(strsplit(blast_out_raw[["local"]]$sallseqid, "|", fixed = TRUE), 
-       function(x) x[[1]])
+id_only <- sapply(
+  strsplit(blast_out_raw[["local"]]$sallseqid, "|", fixed = TRUE), 
+  function(x) x[[1]]
+  )
 
 # add it to the data
 blast_out_raw[["local"]][,sallseqid := id_only]
