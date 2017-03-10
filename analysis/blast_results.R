@@ -38,6 +38,9 @@ blast_output_files <- c(
 # table of BMBM id numbers to taxon names
 local_taxon_db_file <- "fhl_co1/fhl_mbm_co1.csv"
 
+# table of ncbi id numbers to taxon names
+name_taxid_file <- "name_taxid_ncbi.csv"
+
 # blast_out_headers <- list(
 #   c("qseqid", "sallseqid", "pident", "length", "mismatch", "gapopen", 
 #     "qstart", "qend", "sstart", "send", "evalue", "bitscore", "staxids", 
@@ -274,26 +277,44 @@ blast_hits <- rbind(hits_local, hits_genbank)
 # get taxon names
 #-------------------------------------------------------------------------------
 
+# getting names from taxon id numbers requires a network connection and can take
+# some time. Attempt to avoid it if possible and write the results
 library(taxize)
 
+# read in existing file:
+name_taxid <- fread(file.path(data_dir, name_taxid_file), 
+                    colClasses = rep("character", 3))
+
+# gather the taxids from blast output
 hits_genbank$hit_name %>% 
   strsplit(split = ";") %>%
   unlist %>%
   unique -> taxid_uniq
 
-classifications <- classification(x = taxid_uniq, db = "ncbi")
+# testing: 
+# taxid_uniq_o <- taxid_uniq
+# taxid_uniq <- c(taxid_uniq, "679340", "679340", "451675")
 
-# collapse into a single data frame, and omit duplicate rows.
-class_dt <- unique(rbindlist(classifications))
-names(class_dt)[1] <- "taxon_name"
+# check to see if any are not already listed in the name_taxid table
+if(any(!(taxid_uniq %in% name_taxid$id))){
+  id_lookup <- unique(taxid_uniq[!(taxid_uniq %in% name_taxid$id)])
+}
+
+if(exists("id_lookup")){
+  name_taxid_new <- classification(x = id_lookup, db = "ncbi")
+  name_taxid_new %>% 
+    rbindlist %>% 
+    set_colnames(colnames(name_taxid)) -> name_taxid_new_dt
+  name_taxid <- unique(rbind(name_taxid, name_taxid_new_dt))
+}
 
 # add the local taxon db
 names(local_taxon_db) <- c("id", "taxon_name")
-class_dt <- rbind(class_dt, local_taxon_db, fill = TRUE)
+name_taxid <- rbind(name_taxid, local_taxon_db, fill = TRUE)
 
 tax_ann <- merge(
   x = blast_hits, 
-  y = class_dt[,c("taxon_name", "id")], 
+  y = name_taxid[,c("taxon_name", "id")], 
   by.x = "hit_name", 
   by.y = "id", 
   all.x = TRUE
@@ -306,11 +327,11 @@ multi_hit <- tax_ann[no_names,hit_name]
 get_multitax <- function(x) {
   split_tax <- strsplit(x, split = ";")
   sapply(split_tax, 
-    function(y) paste(class_dt[id %in% y,taxon_name], collapse = ";")
+    function(y) paste(name_taxid[id %in% y,taxon_name], collapse = ";")
     )
 }
 multi_tax <- get_multitax(multi_hit)
 
 tax_ann[no_names, taxon_name := get_multitax(multi_hit)]
 
-
+fwrite(tax_ann, file = "tax_ann_blast.csv")
