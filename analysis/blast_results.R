@@ -69,6 +69,12 @@ counts_table[1:5, 1:5]
 local_taxon_db <- fread(input = file.path(data_dir, local_taxon_db_file), 
                         header = FALSE)
 
+# fix errors (duplicated taxa for single id)
+local_taxon_db[id == "BMBM-0492",taxon_name := "Polynoidae"]
+local_taxon_db[id == "BMBM-0499",taxon_name := "Ascidiacea"]
+local_taxon_db[id == "BMBM-0765",taxon_name := "Thyone_benti?"]
+local_taxon_db <- unique(local_taxon_db)
+
 # get header information.
 blast_script <- readLines(file.path(data_dir, blast_script_file))
 target_line <- blast_script[grep(pattern = "output_format=", blast_script)]
@@ -334,4 +340,75 @@ multi_tax <- get_multitax(multi_hit)
 
 tax_ann[no_names, taxon_name := get_multitax(multi_hit)]
 
-fwrite(tax_ann, file = "tax_ann_blast.csv")
+blast_annotations_file <- file.path(data_dir, "tax_ann_blast.csv")
+# fwrite(tax_ann, file = blast_annotations_file)
+
+hits <- list(
+  "local" = tax_ann[db == "local", qseqid], 
+  "genbank" = tax_ann[db == "genbank", qseqid]
+)
+queries_total <- nrow(counts_table)
+
+# this is the proportion of sequences that had hits in each database:
+print(sapply(hits, length)/queries_total)
+
+total_seqs <- counts_table[,sum(total)]
+
+# get total abundance of reads annotated to each db
+seq_abun <- c(
+  "local" = counts_table[
+    Representative_Sequence %in% hits[["local"]],sum(total)], 
+  "genbank" = counts_table[
+    Representative_Sequence %in% hits[["genbank"]],sum(total)]
+)
+
+# what is the proportion of total sequences annotated using each db
+seq_abun/total_seqs
+
+counts_annotated <- merge(
+  x = tax_ann[,c("qseqid", "taxon_name", "pident", "db")], 
+  y = counts_table, 
+  by.x = "qseqid", 
+  by.y = "Representative_Sequence",
+  all.y = TRUE
+)
+
+seq_metadata_file <- file.path(data_dir, "sequencing_metadata.csv")
+
+seq_metadata <- fread(file = seq_metadata_file)
+seq_metadata[,DNA_ID]
+seq_metadata[1:10,5:7]
+seq_metadata[,
+  sample_code := paste0("lib_", lib_index_seq_rc, "_tag_", primer_index_seq)
+]
+seq_metadata[sample_code %in% colnames(counts_annotated)]
+seq_metadata$sample_code
+
+# get the column names to replace with dna id:
+poop <- data.table(
+  count_col = colnames(counts_annotated)[
+    colnames(counts_annotated) %in% seq_metadata$sample_code
+  ])
+
+# get DNA ID to use as column name in count table
+colnames_dna <- seq_metadata$DNA_ID[
+  match(colnames(counts_annotated), seq_metadata$sample_code)
+  ]
+
+
+colnames(counts_annotated)[which(!is.na(colnames_dna))] <- colnames_dna[!is.na(colnames_dna)]
+
+count_taxa_file <- file.path(data_dir, "count_taxa.csv")
+
+# fwrite(counts_annotated, file = count_taxa_file)
+
+# eliminate the total column
+counts_annotated[,total := NULL]
+
+counts_annotated %>% 
+  melt.data.table(
+    id.vars = c("qseqid", "taxon_name", "pident", "db"), 
+    variable.name = "sample_id", value.name = "count"
+  ) %>% .[count > 0] -> count_taxa_l
+
+# fwrite(count_taxa_l, file = file.path(data_dir, "count_taxa_l.csv"))
