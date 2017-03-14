@@ -1,0 +1,22 @@
+1328613 11 1_1119_11277_22833_lib_ATTGGC_tag_AGACGC	gi|401836954|gb|JQ950217.1|;gi|401836956|gb|JQ950218.1|;gi|401836960|gb|JQ950220.1|;gi|401836966|gb|JQ950223.1|	04.000	302	47	0	11	312	303	2	
+1328614 4 .68e-77	298	1223814	Belomitra sp. 1 NP-2012 voucher MNHN-IM-2007-38528 cytochrome oxidase subunit I (COI) gene, partial cds; mitochondrial
+1328615 11 1_1119_11277_22833_lib_ATTGGC_tag_AGACGC	gi|401836952|gb|JQ950216.1|	04.000	302	47	0	11	312	303	2	
+1328616 4 .68e-77	298	1223814	Belomitra sp. 1 NP-2012 voucher MNHN-IM-2007-38522 cytochrome oxidase subunit I (COI) gene, partial cds; mitochondrial
+1726168 11 1_2108_3272_14735_lib_GATCTG_tag_ACAGTC	gi|662165351|gb|KJ671744.1|	06.000	266	35	0	5	270	130	395	
+1726169 4 .68e-77	298	267567	Skeletonema marinoi strain 31 cytochrome oxidase subunit 1 gene, partial cds; mitochondrial
+1726170 11 1_2108_3272_14735_lib_GATCTG_tag_ACAGTC	gi|662165343|gb|KJ671741.1|	06.000	266	35	0	5	270	130	395	
+1726171 4 .68e-77	298	267567	Skeletonema marinoi strain 17 cytochrome oxidase subunit 1 gene, partial cds; mitochondrial
+1726172 11 1_2108_3272_14735_lib_GATCTG_tag_ACAGTC	gi|257798980|gb|GQ844256.1|	04.000	299	46	0	5	303	126	424	
+1726173 4 .68e-77	298	49249	Ditylum brightwellii voucher DITMARTIN cytochrome oxidase subunit I (COI) gene, partial sequence; mitochondrial
+1726174 11 1_2108_3272_14735_lib_GATCTG_tag_ACAGTC	gi|6331139|dbj|AB020223.1|	04.000	299	46	0	5	303	358	656	
+1726175 4 .68e-77	298	49249	Ditylum brightwelli mitochondrial coxI gene for cytochrome oxidase subunit I, partial cds
+1735916 11 1_2119_10130_14235_lib_GATCTG_tag_ACGTAT	gi|320172571|gb|HQ379429.1|	03.000	312	53	0	1	312	346	657	
+1735917 4 .68e-77	298	86007	Suberites ficus voucher BELUM<GBR>:Mc4322 cytochrome oxidase subunit I (COI) gene, partial cds; mitochondrial
+1775591 11 1_2103_12719_15837_lib_GATCTG_tag_AGACGC	gi|411531115|gb|JQ966289.1|	04.000	313	47	3	1	312	352	42	
+1775592 4 .68e-77	298	1072556	Conopea galeata voucher CAS:IZ:184416A cytochrome c oxidase subunit 1 (COI) gene, partial cds; mitochondrial
+1775593 11 1_2103_12719_15837_lib_GATCTG_tag_AGACGC	gi|411531112|gb|JQ966288.1|	04.000	313	47	3	1	312	353	43	
+1775594 4 .68e-77	298	1072556	Conopea galeata voucher CAS:IZ:183496 cytochrome c oxidase subunit 1 (COI) gene, partial cds; mitochondrial
+1775595 11 1_2103_12719_15837_lib_GATCTG_tag_AGACGC	gi|411531096|gb|JQ966287.1|	04.000	313	47	3	1	312	357	47	
+1775596 4 .68e-77	298	1072556	Conopea galeata voucher CAS:IZ:184331 cytochrome c oxidase subunit 1 (COI) gene, partial cds; mitochondrial
+1775597 11 1_2103_12719_15837_lib_GATCTG_tag_AGACGC	gi|511262162|gb|KC349922.1|	83.923	311	50	0	2	312	319	9	
+1775598 4 .68e-77	298	1343461	Conopea saotomensis voucher CASIZ:174321A cytochrome oxidase subunit I (COX1) gene, partial cds; mitochondrial
