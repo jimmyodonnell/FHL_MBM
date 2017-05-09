@@ -101,7 +101,7 @@ echo "Identity value:" ${identity}
 # full nt on UW CEG server: blast_db="/local/blast-local-db/nt"
 # full nt on NWFSC iMac: /Users/jimmy.odonnell/NCBI/databases/nt/nt
 # HYRDA: just specify the db name and the centrally installed version will be used
-blast_db="/Users/jimmy.odonnell/Downloads/Blast_iterative/blast_preclusters_localbarcodes_v1/Blast_local_database/FHL_plates1-3_aligned.fasta"
+blast_db="/Users/jimmy.odonnell/Projects/FHL_MBM/data/fhl_co1/blast_db/FHL_mbm_co1.fasta"
 echo "Database:" "${blast_db}"
 
 # NUMBER OF MATCHES
