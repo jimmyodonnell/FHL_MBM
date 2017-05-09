@@ -36,7 +36,7 @@ blast_output_files <- c(
 )
 
 # table of BMBM id numbers to taxon names
-local_taxon_db_file <- "fhl_co1/fhl_mbm_co1_taxa.csv"
+local_taxon_db_file <- "fhl_co1/temp.csv" # "fhl_co1/fhl_mbm_co1_taxa.csv"
 
 # table of ncbi id numbers to taxon names
 name_taxid_file <- "name_taxid_ncbi.csv"
@@ -89,13 +89,13 @@ for(i in 1:length(blast_out_raw)){
 }
 
 # Use just the ID, rather than the taxon name from local blast results
-id_only <- sapply(
-  strsplit(blast_out_raw[["local"]]$sallseqid, "|", fixed = TRUE), 
-  function(x) x[[1]]
-  )
+# id_only <- sapply(
+  # strsplit(blast_out_raw[["local"]]$sallseqid, "|", fixed = TRUE), 
+  # function(x) x[[1]]
+  # )
 
 # add it to the data
-blast_out_raw[["local"]][,sallseqid := id_only]
+# blast_out_raw[["local"]][,sallseqid := id_only]
 
 for(i in 1:length(blast_out_raw)){
   in_blastout <- length(
@@ -314,8 +314,11 @@ if(exists("id_lookup")){
   name_taxid <- unique(rbind(name_taxid, name_taxid_new_dt))
 }
 
-# add the local taxon db
+# format local taxon db for merge
 # names(local_taxon_db) <- c("id", "taxon_name")
+local_taxon_db[ , rank := rep("NA", nrow(local_taxon_db))]
+
+# add the local taxon db
 name_taxid <- rbind(name_taxid, local_taxon_db, fill = TRUE)
 
 tax_ann <- merge(
@@ -326,7 +329,7 @@ tax_ann <- merge(
   all.x = TRUE
 )
 
-no_names <- which(is.na((tax_ann$taxon_name)))
+no_names <- which(is.na(tax_ann$taxon_name))
 
 multi_hit <- tax_ann[no_names,hit_name]
 
