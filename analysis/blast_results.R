@@ -31,12 +31,12 @@ blast_script_file <- "blast/local/blast_nested_e-local.sh"
 
 # blast results files
 blast_output_files <- c(
-  local = "blast/local/blast_20170222_1214/blasted_20170222_1214_e_all.tsv", 
+  local = "blast/local/blast_20170508_1950/blasted_20170508_1950.tsv", 
   genbank = "blast/genbank/blast_results_nogit.txt"
 )
 
 # table of BMBM id numbers to taxon names
-local_taxon_db_file <- "fhl_co1/fhl_mbm_co1.csv"
+local_taxon_db_file <- "fhl_co1/fhl_mbm_co1_taxa.csv"
 
 # table of ncbi id numbers to taxon names
 name_taxid_file <- "name_taxid_ncbi.csv"
@@ -67,12 +67,12 @@ counts_table[1:5, 1:5]
 
 # table of BMBM id numbers to taxon names
 local_taxon_db <- fread(input = file.path(data_dir, local_taxon_db_file), 
-                        header = FALSE)
+                        header = TRUE)
 
 # fix errors (duplicated taxa for single id)
-local_taxon_db[id == "BMBM-0492",taxon_name := "Polynoidae"]
-local_taxon_db[id == "BMBM-0499",taxon_name := "Ascidiacea"]
-local_taxon_db[id == "BMBM-0765",taxon_name := "Thyone_benti?"]
+# local_taxon_db[id == "BMBM-0492",taxon_name := "Polynoidae"]
+# local_taxon_db[id == "BMBM-0499",taxon_name := "Ascidiacea"]
+# local_taxon_db[id == "BMBM-0765",taxon_name := "Thyone_benti?"]
 local_taxon_db <- unique(local_taxon_db)
 
 # get header information.
@@ -315,7 +315,7 @@ if(exists("id_lookup")){
 }
 
 # add the local taxon db
-names(local_taxon_db) <- c("id", "taxon_name")
+# names(local_taxon_db) <- c("id", "taxon_name")
 name_taxid <- rbind(name_taxid, local_taxon_db, fill = TRUE)
 
 tax_ann <- merge(
