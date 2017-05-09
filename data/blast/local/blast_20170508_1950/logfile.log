@@ -1,0 +1,116 @@
+~~~~~~~~~~~~~~~~~~~~ BLAST PARAMETERS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Identity value: 0
+Database: /Users/jimmy.odonnell/Projects/FHL_MBM/data/fhl_co1/blast_db/FHL_mbm_co1.fasta
+Maximum matches per sequence: 1000
+Max high quality hits before culling lower quality: 100
+Word size: 7
+Nested e-values read from command line argument.
+E-Values: 1e-50 1e-45 1e-40 1e-35 1e-30 1e-25 1e-20
+Number of threads: 8
+Output format: 6 qseqid sallseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore staxids stitle
+1e-50 1e-50 1e-50 1e-50 1e-50 1e-50 1e-50
+blast will query file: (19181 sequence(s))
+../../7_no_primers.unique.pick.MACSE.precluster.pick.fasta
+Mon May 8 19:50:14 PDT 2017 blastn is running at 1e-50 e-value...
+Mon May 8 19:51:02 PDT 2017 blastn finished at 1e-50 e-value.
+blast search took 0 hours, 0 minutes and 48 seconds.
+Blast results in file:
+../../7_no_primers.unique.pick.MACSE.precluster.pick/blast_20170508_1950/blasted_20170508_1950_e1e-50.txt
+
+9199 Sequences had no hit in database. Sequence IDs with no blast hit can be found in file:
+../../7_no_primers.unique.pick.MACSE.precluster.pick/blast_20170508_1950/blasted_20170508_1950_e1e-50.nohits
+
+Sequences with no blast hit can be found in fasta file:
+../../7_no_primers.unique.pick.MACSE.precluster.pick/blast_20170508_1950/blasted_20170508_1950_e1e-50_nohits.fasta
+
+1e-45 1e-45 1e-45 1e-45 1e-45 1e-45 1e-45
+blast will query file: (9199 sequence(s))
+../../7_no_primers.unique.pick.MACSE.precluster.pick/blast_20170508_1950/blasted_20170508_1950_e1e-50_nohits.fasta
+Mon May 8 19:55:40 PDT 2017 blastn is running at 1e-45 e-value...
+Mon May 8 19:55:59 PDT 2017 blastn finished at 1e-45 e-value.
+blast search took 0 hours, 0 minutes and 19 seconds.
+Blast results in file:
+../../7_no_primers.unique.pick.MACSE.precluster.pick/blast_20170508_1950/blasted_20170508_1950_e1e-45.txt
+
+8186 Sequences had no hit in database. Sequence IDs with no blast hit can be found in file:
+../../7_no_primers.unique.pick.MACSE.precluster.pick/blast_20170508_1950/blasted_20170508_1950_e1e-45.nohits
+
+Sequences with no blast hit can be found in fasta file:
+../../7_no_primers.unique.pick.MACSE.precluster.pick/blast_20170508_1950/blasted_20170508_1950_e1e-45_nohits.fasta
+
+1e-40 1e-40 1e-40 1e-40 1e-40 1e-40 1e-40
+blast will query file: (8186 sequence(s))
+../../7_no_primers.unique.pick.MACSE.precluster.pick/blast_20170508_1950/blasted_20170508_1950_e1e-45_nohits.fasta
+Mon May 8 19:57:03 PDT 2017 blastn is running at 1e-40 e-value...
+Mon May 8 19:57:19 PDT 2017 blastn finished at 1e-40 e-value.
+blast search took 0 hours, 0 minutes and 16 seconds.
+Blast results in file:
+../../7_no_primers.unique.pick.MACSE.precluster.pick/blast_20170508_1950/blasted_20170508_1950_e1e-40.txt
+
+6828 Sequences had no hit in database. Sequence IDs with no blast hit can be found in file:
+../../7_no_primers.unique.pick.MACSE.precluster.pick/blast_20170508_1950/blasted_20170508_1950_e1e-40.nohits
+
+Sequences with no blast hit can be found in fasta file:
+../../7_no_primers.unique.pick.MACSE.precluster.pick/blast_20170508_1950/blasted_20170508_1950_e1e-40_nohits.fasta
+
+1e-35 1e-35 1e-35 1e-35 1e-35 1e-35 1e-35
+blast will query file: (6828 sequence(s))
+../../7_no_primers.unique.pick.MACSE.precluster.pick/blast_20170508_1950/blasted_20170508_1950_e1e-40_nohits.fasta
+Mon May 8 19:58:08 PDT 2017 blastn is running at 1e-35 e-value...
+Mon May 8 19:58:21 PDT 2017 blastn finished at 1e-35 e-value.
+blast search took 0 hours, 0 minutes and 13 seconds.
+Blast results in file:
+../../7_no_primers.unique.pick.MACSE.precluster.pick/blast_20170508_1950/blasted_20170508_1950_e1e-35.txt
+
+5489 Sequences had no hit in database. Sequence IDs with no blast hit can be found in file:
+../../7_no_primers.unique.pick.MACSE.precluster.pick/blast_20170508_1950/blasted_20170508_1950_e1e-35.nohits
+
+Sequences with no blast hit can be found in fasta file:
+../../7_no_primers.unique.pick.MACSE.precluster.pick/blast_20170508_1950/blasted_20170508_1950_e1e-35_nohits.fasta
+
+1e-30 1e-30 1e-30 1e-30 1e-30 1e-30 1e-30
+blast will query file: (5489 sequence(s))
+../../7_no_primers.unique.pick.MACSE.precluster.pick/blast_20170508_1950/blasted_20170508_1950_e1e-35_nohits.fasta
+Mon May 8 19:58:54 PDT 2017 blastn is running at 1e-30 e-value...
+Mon May 8 19:59:04 PDT 2017 blastn finished at 1e-30 e-value.
+blast search took 0 hours, 0 minutes and 10 seconds.
+Blast results in file:
+../../7_no_primers.unique.pick.MACSE.precluster.pick/blast_20170508_1950/blasted_20170508_1950_e1e-30.txt
+
+4326 Sequences had no hit in database. Sequence IDs with no blast hit can be found in file:
+../../7_no_primers.unique.pick.MACSE.precluster.pick/blast_20170508_1950/blasted_20170508_1950_e1e-30.nohits
+
+Sequences with no blast hit can be found in fasta file:
+../../7_no_primers.unique.pick.MACSE.precluster.pick/blast_20170508_1950/blasted_20170508_1950_e1e-30_nohits.fasta
+
+1e-25 1e-25 1e-25 1e-25 1e-25 1e-25 1e-25
+blast will query file: (4326 sequence(s))
+../../7_no_primers.unique.pick.MACSE.precluster.pick/blast_20170508_1950/blasted_20170508_1950_e1e-30_nohits.fasta
+Mon May 8 19:59:25 PDT 2017 blastn is running at 1e-25 e-value...
+Mon May 8 19:59:32 PDT 2017 blastn finished at 1e-25 e-value.
+blast search took 0 hours, 0 minutes and 7 seconds.
+Blast results in file:
+../../7_no_primers.unique.pick.MACSE.precluster.pick/blast_20170508_1950/blasted_20170508_1950_e1e-25.txt
+
+3395 Sequences had no hit in database. Sequence IDs with no blast hit can be found in file:
+../../7_no_primers.unique.pick.MACSE.precluster.pick/blast_20170508_1950/blasted_20170508_1950_e1e-25.nohits
+
+Sequences with no blast hit can be found in fasta file:
+../../7_no_primers.unique.pick.MACSE.precluster.pick/blast_20170508_1950/blasted_20170508_1950_e1e-25_nohits.fasta
+
+1e-20 1e-20 1e-20 1e-20 1e-20 1e-20 1e-20
+blast will query file: (3395 sequence(s))
+../../7_no_primers.unique.pick.MACSE.precluster.pick/blast_20170508_1950/blasted_20170508_1950_e1e-25_nohits.fasta
+Mon May 8 19:59:45 PDT 2017 blastn is running at 1e-20 e-value...
+Mon May 8 19:59:51 PDT 2017 blastn finished at 1e-20 e-value.
+blast search took 0 hours, 0 minutes and 6 seconds.
+Blast results in file:
+../../7_no_primers.unique.pick.MACSE.precluster.pick/blast_20170508_1950/blasted_20170508_1950_e1e-20.txt
+
+2179 Sequences had no hit in database. Sequence IDs with no blast hit can be found in file:
+../../7_no_primers.unique.pick.MACSE.precluster.pick/blast_20170508_1950/blasted_20170508_1950_e1e-20.nohits
+
+Sequences with no blast hit can be found in fasta file:
+../../7_no_primers.unique.pick.MACSE.precluster.pick/blast_20170508_1950/blasted_20170508_1950_e1e-20_nohits.fasta
+
+Mon May 8 19:59:58 PDT 2017 Nested e-value blast completed.
